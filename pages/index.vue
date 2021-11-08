@@ -1,6 +1,5 @@
 <template>
-  <Tutorial/>
-
+  <Psycha />
 </template>
 
 <script>
