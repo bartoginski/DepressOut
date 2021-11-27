@@ -8,7 +8,14 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        'sans': ['Nunito', 'sans-serif']
+      },
+      colors: {
+        'primary': '#30E3CA'
+      }
+    }
   },
   variants: {
     extend: {}
