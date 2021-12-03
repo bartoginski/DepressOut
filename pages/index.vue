@@ -2,14 +2,14 @@
   <main>
     <h1 data-aos="fade-down" class="text-center text-5xl sm:text-8xl font-bold tracking-wide py-40">Psycha is sitting</h1>
     <div>
-      <img src="~/assets/img/wave_top.svg" alt="">
+      <img src="~/assets/img/wave_top.svg" alt="" class="w-screen">
       <!-- temporary set height for div -->
       <div class="h-screen bg-primary">
         <!-- Add sections below -->
         <!-- section 1 -->
         <!-- section 2 -->
       </div>
-      <img src="~/assets/img/wave_bottom.svg" alt="">
+      <img src="~/assets/img/wave_bottom.svg" alt="" class="w-screen">
     </div>
     <!-- section 3 -->
   </main>
