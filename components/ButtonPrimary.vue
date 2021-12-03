@@ -1,5 +1,3 @@
 <template>
-<button class="p-3 text-white bg-primary rounded-2xl">
-      Tworzymy
-</button>
-</templete>
+  <button class="p-3 text-white bg-primary rounded-2xl">Tworzymy</button>
+</template>
