@@ -12,6 +12,8 @@
       <img src="~/assets/img/wave_bottom.svg" alt="" class="w-screen">
     </div>
     <!-- section 3 -->
+    <!-- cookies bar ponieżej -->
+    <CookiesBar/>
   </main>
 
 </template>
