@@ -77,7 +77,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-dark py-4 sm:py-6">
+    <div class="bg-dark-gray py-4 sm:py-6">
       <div class="container flex justify-center sm:justify-between my-10 flex-wrap gap-4 sm:gap-0 ">
         <span>Copyright © 2021</span>
         <span>Działamy dla dobra innych</span>
