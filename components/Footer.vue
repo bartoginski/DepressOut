@@ -20,13 +20,13 @@
             "
           >
             <li class="">
-              <NuxtLink class="menu__link" to="/depresja">Depresja</NuxtLink>
+              <NuxtLink class="menu__link" to="/depression">Depresja</NuxtLink>
             </li>
             <li class="">
               <NuxtLink class="menu__link" to="/blog">Blog</NuxtLink>
             </li>
             <li class="">
-              <NuxtLink class="menu__link" to="/kontakt">Kontat</NuxtLink>
+              <NuxtLink class="menu__link" to="/contact">Kontat</NuxtLink>
             </li>
           </ul>
         </div>
