@@ -14,6 +14,7 @@
         <!-- Add sections below -->
         <!-- section 1 -->
         <!-- section 2 -->
+        <About />
       </div>
       <img src="~/assets/img/wave_bottom.svg" alt="" class="w-screen" />
     </div>
