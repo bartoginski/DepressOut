@@ -2,6 +2,7 @@
   <main>
     <PageHeader> Psycha is sitting </PageHeader>
     <WaveSection>
+      <Help />
       <About />
     </WaveSection>
     <!-- section 3 -->
