@@ -1,5 +1,24 @@
 <template>
-<button class="p-3 text-white bg-primary border-2 border-transparent rounded-2xl">
-    Tworzymy
-</button>
+  <button
+    class="p-3 text-white bg-primary border-2 border-transparent rounded-2xl"
+    @click="onclick"
+  >
+    {{ title }}
+  </button>
 </template>
+
+<script>
+export default {
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    onclick: {
+      type: Function,
+      required: false,
+      default: () => {},
+    },
+  },
+}
+</script>
