@@ -12,13 +12,13 @@
               md:gap-36'>
         
             <li class="ml-7 text-2xl">
-                <NuxtLink class="no-underline menu__link" to="/depression">Depresja</NuxtLink>
+                <NuxtLink class="no-underline hover:text-primary menu__link" to="/depression">Depresja</NuxtLink>
             </li>
             <li class="ml-7 text-2xl">
-                <NuxtLink class="no-underline menu__link" to="/blog">Blog</NuxtLink>
+                <NuxtLink class="no-underline hover:text-primary menu__link" to="/blog">Blog</NuxtLink>
             </li>
             <li class="ml-7 text-2xl">
-                <NuxtLink class="no-underline menu__link" to="/login">Zaloguj</NuxtLink>
+                <NuxtLink class="no-underline hover:text-primary menu__link" to="/login">Zaloguj</NuxtLink>
             </li>
         </ul>
         </div>
