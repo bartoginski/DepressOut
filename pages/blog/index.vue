@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="overflow-hidden">
     <PageHeader> Blog </PageHeader>
 
     <WaveSection>
@@ -23,7 +23,10 @@
 </template>
 
 <script>
+import aosMixin from '~/mixins/aos'
+
 export default {
+  mixins: [aosMixin],
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
       .sortBy('createdAt', 'desc')

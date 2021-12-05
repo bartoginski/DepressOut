@@ -4,7 +4,7 @@
       <div class="container">
         <div class="flex flex-row justify-between">
           <div class="flex flex-col gap-4">
-            <img src="~/assets/img/logo.svg" alt="" />
+            <Nuxt-link to="/"><img src="~/assets/img/logo.svg" alt="" /></Nuxt-link>
             <a class="hover:opacity-90 transition-opacity" :href="'mailto' + email">{{ email }}</a>
           </div>
           <ul
