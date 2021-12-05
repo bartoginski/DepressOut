@@ -7,17 +7,9 @@
     >
       Psycha is sitting
     </h1>
-    <div>
-      <img src="~/assets/img/wave_top.svg" alt="" class="w-screen" />
-      <!-- temporary set height for div -->
-      <div class="h-screen bg-primary">
-        <!-- Add sections below -->
-        <!-- section 1 -->
-        <!-- section 2 -->
-        <About />
-      </div>
-      <img src="~/assets/img/wave_bottom.svg" alt="" class="w-screen" />
-    </div>
+    <WaveSection>
+      <About />
+    </WaveSection>
     <!-- section 3 -->
     <CookiesBar />
   </main>

@@ -8,7 +8,7 @@
         poświęcony czas.
       </p>
     </div>
-    <div class="flex-1">
+    <div class="flex-1 justify-end flex">
       <img src="~/assets/img/log.svg" alt="" />
     </div>
   </div>
