@@ -1,11 +1,15 @@
 <template>
   <div
     v-if="isDisplayed"
-    class="bg-light-gray p-5 fixed z-50 w-full bottom-0"
+    class="bg-light-gray p-3 px-40 fixed z-50 w-full bottom-0 text-xl flex justify-between text-white"
   >
+    <span class="py-4 space-x-2">
     Ta strona używa ciasteczek by zapewnić ci najlepsze mozliwe doświadczenia
-    <ButtonPrimary title="Zgadzam się" :onclick="closeBar" />
-    <ButtonOutline title="Więcej informacji"  :onclick="() => {}"/>
+    </span>
+    <div class="flex justify-between gap-14">
+    <ButtonPrimary :onclick="closeBar">Zgadzam się</ButtonPrimary>
+    <ButtonOutline :onclick="() => {}">Więcej informacji</ButtonOutline>
+  </div>
   </div>
 </template>
 

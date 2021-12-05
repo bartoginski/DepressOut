@@ -3,17 +3,13 @@
     class="p-3 text-primary transition duration-500 ease-in-out hover:bg-gray-900 bg-transparent border-2 border-primary rounded-2xl"
     @click="onclick"
   >
-    {{ title }}
+    <slot></slot>
   </button>
 </template>
 
 <script>
 export default {
   props: {
-    title: {
-      type: String,
-      required: true,
-    },
     onclick: {
       type: Function,
       required: false,
