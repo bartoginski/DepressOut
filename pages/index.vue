@@ -1,12 +1,6 @@
 <template>
   <main>
-    <h1
-      data-aos-delay="300"
-      data-aos="fade-down"
-      class="text-center text-5xl sm:text-8xl font-bold tracking-wide py-40"
-    >
-      Psycha is sitting
-    </h1>
+    <PageHeader> Psycha is sitting </PageHeader>
     <WaveSection>
       <About />
     </WaveSection>
@@ -14,10 +8,3 @@
     <CookiesBar />
   </main>
 </template>
-
-<script>
-import aosMixin from '~/mixins/aos'
-export default {
-  mixins: [aosMixin],
-}
-</script>

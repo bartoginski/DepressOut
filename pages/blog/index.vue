@@ -1,14 +1,25 @@
 <template>
-  <WaveSection>
-    <div class="container grid grid-cols-2 gap-x-24 gap-y-32">
-      <BlogCard
-        v-for="article in articles"
-        :key="article.slug"
-        :article="article"
-      />
-      <!-- <pre>{{ article }}</pre> -->
-    </div>
-  </WaveSection>
+  <main>
+    <PageHeader> Blog </PageHeader>
+
+    <WaveSection>
+      <div
+        class="
+          container
+          grid grid-cols-1
+          md:grid-cols-2
+          gap-x-24 gap-y-10
+          md:gap-y-32
+        "
+      >
+        <BlogCard
+          v-for="article in articles"
+          :key="article.slug"
+          :article="article"
+        />
+      </div>
+    </WaveSection>
+  </main>
 </template>
 
 <script>
