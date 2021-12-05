@@ -5,7 +5,7 @@
       <div class="flex flex-col gap-40 bg-primary">
           <slot></slot>
       </div>
-      <img src="~/assets/img/wave_bottom.svg" alt="" class="w-screen" />
+      <img src="~/assets/img/wave_bottom.svg" alt="" class="w-screen -m-px" />
     </div>
 </template>
 

@@ -5,6 +5,7 @@
       <Help />
       <About />
     </WaveSection>
+    <Social />
     <!-- section 3 -->
     <CookiesBar />
   </main>
