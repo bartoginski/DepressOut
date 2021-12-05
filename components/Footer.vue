@@ -26,7 +26,7 @@
               <NuxtLink class="menu__link" to="/blog">Blog</NuxtLink>
             </li>
             <li class="">
-              <NuxtLink class="menu__link" to="/contact">Kontat</NuxtLink>
+              <NuxtLink class="menu__link" to="/contact">Kontakt</NuxtLink>
             </li>
           </ul>
         </div>
