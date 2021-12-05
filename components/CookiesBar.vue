@@ -7,8 +7,8 @@
     Ta strona używa ciasteczek by zapewnić ci najlepsze mozliwe doświadczenia
     </span>
     <div class="flex justify-between gap-14">
-    <ButtonPrimary title="Zgadzam się" :onclick="closeBar" />
-    <ButtonOutline title="Więcej informacji"  :onclick="() => {}"/>
+    <ButtonPrimary :onclick="closeBar">Zgadzam się</ButtonPrimary>
+    <ButtonOutline :onclick="() => {}">Więcej informacji</ButtonOutline>
   </div>
   </div>
 </template>
