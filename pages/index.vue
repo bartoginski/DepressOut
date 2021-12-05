@@ -7,7 +7,7 @@
     >
       Psycha is sitting
     </h1>
-    <WaveSection> 
+    <WaveSection>
       <About />
     </WaveSection>
     <!-- section 3 -->
