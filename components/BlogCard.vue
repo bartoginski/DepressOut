@@ -1,5 +1,18 @@
 <template>
-  <div class="rounded-3xl bg-white p-11 flex justify-center flex-col max-w-lg">
+  <div
+    data-aos="fade-in"
+    data-aos-delay="300"
+    class="
+      rounded-3xl
+      bg-white
+      p-8
+      md:p-11
+      flex
+      justify-center
+      flex-col
+      max-w-lg
+    "
+  >
     <div class="flex justify-center items-center">
       <img
         class="w-3/4"
@@ -17,12 +30,20 @@
       <h4 class="text-2xl font-bold">{{ article.title }}</h4>
       <p class="text-l text-light-gray">{{ article.description }}</p>
     </div>
-    <Nuxt-link :to="'/blog/' + article.slug" class="text-primary hover:opacity-70 transition-opacity">Czytaj więcej</Nuxt-link>
+    <Nuxt-link
+      :to="'/blog/' + article.slug"
+      class="text-primary hover:opacity-70 transition-opacity"
+      >Czytaj więcej</Nuxt-link
+    >
   </div>
 </template>
 
 <script>
+import aosMixin from '~/mixins/aos'
+
 export default {
+  mixins: [aosMixin],
+
   props: {
     article: {
       type: Object,
