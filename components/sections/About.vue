@@ -12,11 +12,11 @@
           md:justify-end
           flex-col flex
           md:items-left
-          gap-10
+          gap-4
           md:gap-0
         "
       >
-        <h2 class="text-6xl">Trochę o nas</h2>
+        <h2 class="text-4xl md:text-6xl ">Trochę o nas</h2>
         <p class="text-xl">
           Tworzymy projekt mający na celu pomóc ludziom dotkniętym depresją.
           Dlatego stworzyliśmy ankietę by lepiej zrozumieć problem. Dziękujemy
