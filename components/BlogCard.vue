@@ -16,7 +16,7 @@
     <div class="flex justify-center items-center">
       <img
         class="w-3/4"
-        :src="require(`~/assets/img/articles/${article.img}`)"
+        :src="require(`~/static/articles/${article.img}`)"
         alt=""
       />
     </div>
@@ -49,4 +49,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+

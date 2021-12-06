@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white text-black py-4">
+  <header class="bg-white text-black py-4 fixed top-0 w-full z-50">
     <div class="container flex justify-between px-4 font-bold">
      <Nuxt-link to="/"> <img src="~/assets/img/logo_black.svg" alt="logo" /></Nuxt-link>
       <img class="block md:hidden" src="~/assets/img/burger.svg" alt="burger menu" />
