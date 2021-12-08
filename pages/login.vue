@@ -1,6 +1,6 @@
 <template>
-  <main class="h-screen flex justify-center items-center flex-col">
-    <h2>Logowanie</h2>
+  <main class="">
+    <PageHeader>Logowanie</PageHeader>
     <LoginForm />
   </main>
 </template>
