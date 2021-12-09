@@ -41,6 +41,7 @@
         </div>
       </div>
     </WaveSection>
+    <CTA />
   </main>
 </template>
 
