@@ -1,4 +1,4 @@
-<template>
+npm<template>
   <main>
     <PageHeader> Psycha is sitting </PageHeader>
     <WaveSection>
