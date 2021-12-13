@@ -66,6 +66,14 @@
         </div>
       </div>
       </div>
+      <div
+        data-aos-delay="200"
+        data-aos="fade-center"
+        class="flex-1 justify-end hidden md:block"
+      >
+        <img src="~/assets/img/telefon.svg" alt="" />
+        
+      </div>
     </div>
   </section>
 </template>
