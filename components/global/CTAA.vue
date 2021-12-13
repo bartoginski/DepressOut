@@ -1,16 +1,22 @@
 <template>
     <div class="
-    px-12
-    py-10
-    my-40
+    md:px-12
+    md:py-10
+    md:my-40
+    py-4
+    px-6
+    my-20
     mx-auto
     text-white
     bg-primary
     rounded-2xl
-    w-max
+    md:max-w-max
+    w-3/4
     flex
-    flex-row
-    gap-32
+    md:flex-row
+    flex-col
+    md:gap-24
+    gap-8
     align-middle
     justify-center
     relative
@@ -20,6 +26,7 @@
     before:w-20 
     before:h-20 
     before:bg-white
+    before:top-0
     ">
 
         <img src="~/assets/img/KOLO.svg" alt=""
@@ -44,6 +51,7 @@
         gap-10
         justify-center
         align-middle
+        text-center
         z-10
         ">
             <h2 class="
@@ -52,7 +60,6 @@
             ">Jesteśmy tu, żeby pomóc</h2>
             <div class="
             text-xl
-
             ">
                 <p>
                     Potrzebujesz pomocy, a nie wiesz gdzie jej szukać?
@@ -63,14 +70,15 @@
             </div>
         </div>
         <ButtonOutlineWhite class="
-        text-2xl
+        md:text-2xl
+        text-xl
         font-bold
         h-auto
-        px-32
+        md:px-12
+        lg:px-32
+        px-12
         py-4
-        flex
         text-center
-        align-baseline
         my-auto
         z-10
         ">Sprawdź</ButtonOutlineWhite>
