@@ -6,9 +6,6 @@
       <About />
     </WaveSection>
     <Social />
-    <!-- section 3 -->
-    <CTA />
-    <CookiesBar />
   </main>
 </template>
 <script>

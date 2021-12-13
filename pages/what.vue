@@ -7,7 +7,6 @@
     </WaveSection>
     <GetHelp />
     <!-- section 3 -->
-    <CTA />
     <CookiesBar />
   </main>
 </template>

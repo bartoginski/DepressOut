@@ -55,14 +55,14 @@
 
 <script>
 export default {
-  data() {
-    return {
-      isDisplayed: true,
-    }
+  computed: {
+    isDisplayed() {
+      return this.$store.state.isCookiesDisplayed
+    },
   },
   methods: {
     closeBar() {
-      this.isDisplayed = false
+      this.$store.commit('closeCookies')
     },
   },
 }
