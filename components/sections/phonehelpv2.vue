@@ -13,9 +13,8 @@
             <h2 class="text-4xl md:text-6xl text-center">Skorzystaj z bazy numerów telefonów.</h2>
         </div>
       <div class="
-        gap-0 md:gap-40
-        text-black 
-        text-center
+          gap-0 md:gap-40
+          text-center
           md:text-left
           flex-1
           justify-center
@@ -27,7 +26,7 @@
         data-aos-delay="300"
         data-aos="fade-right"
         class="
-          text-black 
+          text-slate-300 
           text-center
           md:text-left
           flex-1
@@ -41,28 +40,46 @@
       >
         <div class="text-xl flex flex-col gap-10">
         <p>
-        Depresja nie jest powodem do wstydu. Według badań WHO (Światowej Organizacji Zdrowia) 
-        do 2030 roku depresja będzie najczęstszą chorobą na świecie. Ponad to, depresja jest 
-        na czwartym miejscu listy najpoważniejszych chorób i jedną z głównych przyczyn samobójstw.
-        </p>
-
-
-        <p>
-        Wraz z całym zespołem działamy w pocie czoła, by stworzyć dla użytkowników przyjemną przestrzeń, 
-        gdzie każdy będzie mógł znaleźć pomoc. Czy to będzie informacyjny post na blogu, adres specjalisty, 
-        czy nawet telefon pomocy w krytycznych sytuacjach. 
+        Antydepresyjny Telefon Forum Przeciw Depresji<br />
+        tel. 22 594 91 00<br />
+        (czynny w każdą środę – czwartek od 17.00 do 19.00)
+        koszt połączenia jak na numer stacjonarny
+        wg taryfy Twojego operatora telefonicznego
         </p>
 
         <p>
-        *nazwa projektu* oferuje założenie prywatnego profilu, w którym użytkownicy mogą śledzić swój nastrój w 
-        ciągu dnia, tygodnia a nawet miesiąca, dzięki czemu łatwiej będzie rozpoznać stopień zaawansowania 
-        depresji i podpowiedzieć najlepsze sposoby radzenia sobie z problemem. 
+        Telefon zaufania dla osób dorosłych
+        w kryzysie emocjonalnym<br />
+        tel. 116 123<br />
+        (poniedziałek-piątek od 14:00-22:00, połączenie bezpłatne)
         </p>
 
         <p>
-        Dołączenie do *nazwa projektu* nic nie kosztuje, a daje możliwość skorzystania z profecjonalnej pomocy 
-        specjalistów.
+        Telefon Zaufania dla Dzieci i Młodzieży<br />
+        tel. 116 111<br />
+        (czynny 7 dni w tygodniu, 24 h na dobę)
         </p>
+
+        <p>
+        ITAKA – Antydepresyjny telefon zaufania
+        tel. 22 484 88 01
+        Dyżury psychologów:<br />
+        poniedziałek 15.00 – 20.00<br />
+        wtorek 15:00 – 20:00<br />
+        środa 10.00 – 15.00<br />
+        piątek 10.00 – 15.00<br />
+        niedziela 15:00 – 20:00<br />
+        Dyżury psychiatrów:<br />
+        czwartek 16:00 – 21:00<br />
+        piątek 15.00 – 20.00<br />
+        </p>
+
+        <p>
+        Telefoniczna Pierwsza Pomoc Psychologiczna<br />
+        tel. 22 425 98 48<br />
+        (poniedziałek – piątek od 17:00 do 20:00 / sobota od 15:00 do 17:00)
+        </p>
+
         </div>
       </div>
       </div>
