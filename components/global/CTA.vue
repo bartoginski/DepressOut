@@ -24,12 +24,12 @@
     "
   >
     <img
-      src="~/assets/img/kolo.svg"
+      src="~/assets/img/koloo.svg"
       alt=""
       class="absolute z-0 -left-1 -top-2"
     />
     <img
-      src="~/assets/img/koloo.svg"
+      src="~/assets/img/kolo.svg"
       alt=""
       class="absolute z-0 -right-2 -bottom-10"
     />
