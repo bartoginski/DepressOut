@@ -19,7 +19,7 @@
                 fill="#727272"
               />
             </svg>
-            <input v-model="searchValue" type="text" class="mx-4" />
+            <input v-model="searchValue" type="text" class="mx-4" placeholder="Szukaj"/>
           </div>
         </div>
         <div
@@ -41,6 +41,7 @@
         </div>
       </div>
     </WaveSection>
+    <CTA />
   </main>
 </template>
 
