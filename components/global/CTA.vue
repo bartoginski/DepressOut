@@ -41,13 +41,10 @@
         <p>Sprawdź nasze telefony zaufania</p>
       </div>
     </div>
-<<<<<<< HEAD
-    <div class="">
-      <ButtonPrimary class="">Sprawdź</ButtonPrimary>
-=======
     <div class="py-10 px-20 text-xl z-0">
-      <ButtonPrimary class="border-white bg-transparent px-14">Sprawdź</ButtonPrimary>
->>>>>>> 64b5ac135e3df1f163df85fa959821deff63a489
+      <ButtonPrimary class="border-white bg-transparent px-14"
+        >Sprawdź</ButtonPrimary
+      >
     </div>
   </div>
 </template>
