@@ -6,7 +6,5 @@
       <WhatOffers />
     </WaveSection>
     <GetHelp />
-    <!-- section 3 -->
-    <CookiesBar />
   </main>
 </template>
