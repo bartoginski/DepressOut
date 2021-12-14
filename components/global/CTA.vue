@@ -17,6 +17,7 @@
       md:gap-24
       gap-8
       align-middle
+      justify-center
       relative
       overflow-hidden
       before:absolute before:w-20 before:h-20 before:bg-white before:top-0
@@ -25,17 +26,15 @@
     <img
       src="~/assets/img/kolo.svg"
       alt=""
-      class="absolute z-0 -left-6 -top-8"
+      class="absolute z-0 -left-1 -top-2"
     />
     <img
       src="~/assets/img/koloo.svg"
       alt=""
-      class="absolute z-0 -right-16 -bottom-32"
+      class="absolute z-0 -right-2 -bottom-10"
     />
-    <div
-      class="flex flex-col gap-10 justify-center text-center align-middle z-10"
-    >
-      <h2 class="text-4xl font-bold">Jesteśmy tu, żeby pomóc</h2>
+    <div class="flex flex-col gap-10 justify-center align-middle z-10">
+      <h2 class="text-4xl font-bold text-center">Jesteśmy tu, żeby pomóc</h2>
       <div class="text-xl justify-left">
         <p>Potrzebujesz pomocy, a nie wiesz gdzie jej szukać?</p>
         <p>Sprawdź nasze telefony zaufania</p>
