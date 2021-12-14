@@ -1,17 +1,49 @@
 
 <template>
-    <div class="px-60">
-        <div class="container px-20 py-2 text-white transition duration-500 ease-in-out bg-primary border-2 border-primary rounded-2xl flex justify-between justify-items-center">
-            <div class="py-4">
-                <h1 class="text-4xl">Jesteśmy tu, żeby ci pomóc</h1><br />
-                <p class="text-xl">
-                    Potrzebujesz pomoy, a nie wiesz gdzie jej szukać?<br />
-                    Sprawdź nasze telefony pomocy
-                </p>
-            </div>
-            <div class="py-10 px-20 text-xl">
-                        <ButtonPrimary class="border-white bg-transparent px-14">Sprawdź</ButtonPrimary>
-            </div>
-        </div>
+  <div
+    class="
+      md:px-12 md:py-10 md:my-40
+      py-4
+      px-6
+      my-20
+      mx-auto
+      text-white
+      bg-primary
+      rounded-2xl
+      md:max-w-max
+      w-3/4
+      flex
+      md:flex-row
+      flex-col
+      md:gap-24
+      gap-8
+      align-middle
+      relative
+      overflow-hidden
+      before:absolute before:w-20 before:h-20 before:bg-white before:top-0
+    "
+  >
+    <img
+      src="~/assets/img/kolo.svg"
+      alt=""
+      class="absolute z-0 -left-6 -top-8"
+    />
+    <img
+      src="~/assets/img/koloo.svg"
+      alt=""
+      class="absolute z-0 -right-16 -bottom-32"
+    />
+    <div
+      class="flex flex-col gap-10 justify-center text-center align-middle z-10"
+    >
+      <h2 class="text-4xl font-bold">Jesteśmy tu, żeby pomóc</h2>
+      <div class="text-xl justify-left">
+        <p>Potrzebujesz pomocy, a nie wiesz gdzie jej szukać?</p>
+        <p>Sprawdź nasze telefony zaufania</p>
+      </div>
     </div>
+    <div class="">
+      <ButtonPrimary class="">Sprawdź</ButtonPrimary>
+    </div>
+  </div>
 </template>
