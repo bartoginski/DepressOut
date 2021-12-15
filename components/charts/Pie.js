@@ -1,16 +1,16 @@
 import { Pie } from 'vue-chartjs'
 import Vue from 'vue'
-Vue.component("PieChart", {
+export default Vue.component('PieChart', {
   extends: Pie,
   props: {
     chartdata: {
       type: Object,
-      default: null
+      default: null,
     },
     options: {
       type: Object,
-      default: null
-    }
+      default: null,
+    },
   },
   mounted() {
     this.renderChart(this.chartdata, this.options)
