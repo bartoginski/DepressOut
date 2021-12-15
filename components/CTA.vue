@@ -4,7 +4,7 @@
       class="
         text-white
         bg-primary
-        px-14 
+        px-14
         py-8
         rounded-2xl
         flex
@@ -37,9 +37,12 @@
         </div>
       </div>
       <div class="flex justify-center items-center text-xl z-0">
-        <ButtonOutlineWhite class="border-white bg-transparent px-14 lg:mr-14 lg:w-72"
-          >Sprawdź</ButtonOutlineWhite
-        >
+        <NuxtLink to="/phones">
+          <ButtonOutlineWhite
+            class="border-white bg-transparent px-14 lg:mr-14 lg:w-72"
+            >Sprawdź</ButtonOutlineWhite
+          >
+        </NuxtLink>
       </div>
     </div>
   </div>
