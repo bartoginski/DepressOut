@@ -33,6 +33,7 @@
             md:justify-end
             flex-row flex
             md:items-left
+            mb-20
           "
         >
           <div
@@ -95,7 +96,7 @@
         <div
           data-aos-delay="200"
           data-aos="fade-center"
-          class="flex-1 justify-end hidden md:block"
+          class="flex-1 justify-end hidden md:block mt-20"
         >
           <img src="~/assets/img/telefon.svg" alt="" />
         </div>
