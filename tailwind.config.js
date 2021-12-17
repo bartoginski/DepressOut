@@ -13,7 +13,7 @@ module.exports = {
         'sans': ['Nunito', 'sans-serif']
       },
       colors: {
-        'primary': '#30E3CA',
+        'primary': '#28DCC3',
         'secondary': '#595dd4',
         'dark-gray': '#2F2E41',
         'light-gray': '#727272',

@@ -1,28 +1,46 @@
 <template>
- <div>
-      <img src="~/assets/img/wave_top.svg" alt="" class="w-screen wave__top" />
-      <!-- temporary set height for div -->
-      <div class="flex flex-col gap-20 md:gap-40 py-10 md:py-0 bg-primary">
-          <slot></slot>
-      </div>
-      <img src="~/assets/img/wave_bottom.svg" alt="" class="w-screen wave__bottom" />
+  <div>
+    <svg
+      class="w-full fill-current text-primary wave__top"
+      width="1439"
+      height="268"
+      viewBox="0 0 1439 268"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 109.949L34.4 101.977C68.8 93.8687 137.6 77.9262 206.08 76.9641C274.72 76.0021 342.88 90.2954 411.52 100.053C480 109.949 548.8 115.446 617.28 119.294C685.92 123.28 754.08 125.479 822.72 104.039C891.2 82.4616 960 37.1077 1028.48 27.8995C1097.12 18.8287 1165.28 45.7661 1233.92 47.1405C1302.4 48.5149 1371.2 24.3261 1405.6 12.0943L1440 0V268H1405.6C1371.2 268 1302.4 268 1233.92 268C1165.28 268 1097.12 268 1028.48 268C960 268 891.2 268 822.72 268C754.08 268 685.92 268 617.28 268C548.8 268 480 268 411.52 268C342.88 268 274.72 268 206.08 268C137.6 268 68.8 268 34.4 268H0V109.949Z"
+      />
+    </svg>
+
+    <!-- temporary set height for div -->
+    <div class="flex flex-col gap-20 md:gap-40 py-10 md:py-4 bg-primary">
+      <slot></slot>
     </div>
+    <svg
+      class="w-full fill-current text-primary wave__bottom"
+      width="1440"
+      height="176"
+      viewBox="0 0 1440 176"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1440 104.005L1405.6 100.204C1371.2 96.3043 1302.4 88.704 1233.92 91.5041C1165.28 94.3042 1097.12 107.705 1028.48 125.806C960 144.006 891.2 167.007 822.72 160.807C754.08 154.707 685.92 119.305 617.28 110.305C548.8 101.305 480 118.705 411.52 139.006C342.88 159.307 274.72 182.708 206.08 174.208C137.6 165.707 68.7999 125.306 34.4 105.205L0 85.0038V0H34.4C68.7999 0 137.6 0 206.08 0C274.72 0 342.88 0 411.52 0C480 0 548.8 0 617.28 0C685.92 0 754.08 0 822.72 0C891.2 0 960 0 1028.48 0C1097.12 0 1165.28 0 1233.92 0C1302.4 0 1371.2 0 1405.6 0H1440V104.005Z"
+      />
+    </svg>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {}
 </script>
 
 <style lang="scss" scoped>
-    .wave {
-        &__top {
-            margin-bottom: -1px;
-        }
-        &__bottom {
-            margin-top: -1px;
-        }
-    }
-
+.wave {
+  &__top {
+    margin-bottom: -2px;
+  }
+  &__bottom {
+    margin-top: -2px;
+  }
+}
 </style>
