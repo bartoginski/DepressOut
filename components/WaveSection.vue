@@ -1,7 +1,7 @@
 <template>
   <div>
     <svg
-      class="w-full fill-current text-primary wave__top"
+      class="w-full h-full fill-current text-primary wave__top"
       width="1439"
       height="268"
       viewBox="0 0 1439 268"
@@ -17,7 +17,7 @@
       <slot></slot>
     </div>
     <svg
-      class="w-full fill-current text-primary wave__bottom"
+      class="w-full h-full fill-current text-primary wave__bottom"
       width="1440"
       height="176"
       viewBox="0 0 1440 176"
