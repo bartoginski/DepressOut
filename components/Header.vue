@@ -8,13 +8,13 @@
       </div>
       <ul v-show="!mobile" class="navigation">
         <li>
-          <NuxtLink class="link" to="/depression">Depresja</NuxtLink>
+          <NuxtLink class="link link--desktop" to="/depression">Depresja</NuxtLink>
         </li>
         <li>
-          <NuxtLink class="link" to="/blog">Blog</NuxtLink>
+          <NuxtLink class="link link--desktop" to="/blog">Blog</NuxtLink>
         </li>
         <li>
-          <NuxtLink class="link" to="/login">Zaloguj</NuxtLink>
+          <NuxtLink class="link link--desktop" to="/login">Zaloguj</NuxtLink>
         </li>
       </ul>
       <div class="icon">
@@ -30,13 +30,13 @@
       <transition name="mobile-nav">
         <ul v-show="mobileNav" class="dropdown-nav">
           <li>
-            <NuxtLink class="link" to="/depression">Depresja</NuxtLink>
+            <NuxtLink class="link link--mobile" to="/depression">Depresja</NuxtLink>
           </li>
           <li>
-            <NuxtLink class="link" to="/blog">Blog</NuxtLink>
+            <NuxtLink class="link link--mobile" to="/blog">Blog</NuxtLink>
           </li>
           <li>
-            <NuxtLink class="link" to="/login">Zaloguj</NuxtLink>
+            <NuxtLink class="link link--mobile" to="/login">Zaloguj</NuxtLink>
           </li>
         </ul>
       </transition>
@@ -95,13 +95,6 @@ header {
     @media (min-width: 768px) {
       max-width: 768px;
     }
-    ul,
-    .link {
-      font-weight: 500;
-      color: black;
-      list-style: none;
-      text-decoration: none;
-    }
     li {
       text-transform: uppercase;
       padding: 16px;
@@ -112,10 +105,22 @@ header {
       transition: 0.5s ease all;
       padding-bottom: 4px;
       border-bottom: 1px solid transparent;
+      font-weight: 500;
+      color: black;
+      list-style: none;
+      text-decoration: none;
+
+      &--desktop {
+        font-size: 20px;
+      }
+
+      &--mobile {
+        color: white;
+      }
 
       &:hover {
-        color: black;
-        text-decoration: 3px underline #30e3ca;
+        color: '#28dcc3';
+        text-decoration: 3px underline #28dcc3;
       }
     }
     .branding {
@@ -159,7 +164,8 @@ header {
       width: 100%;
       max-width: 250px;
       height: 100%;
-      background-color: #30e3ca;
+      background-color: #28dcc3;
+      border-right: 4px solid white;
       top: 0;
       left: 0;
 
@@ -168,28 +174,7 @@ header {
       }
     }
 
-    /*.mobile-nav-enter-from{
-        transform: translateX(-250px);
-      }
-      .mobile-nav-enter-active{
-        transition: all 2s ease;
-      } 
-      .mobile-nav-enter-to {
-        transform: translateX(0);
-      }
-      
-      
-
-      .mobile-nav-leave-from{
-        transform: translateX(0);
-      }
-      .mobile-nav-leave-to {
-        transform: translateX(-250px);
-      }
-      .mobile-nav-leave-active {
-        transition: all 2s ease;
-      } */
-
+    // animations
     .mobile-nav-enter-active {
       animation: slideIn 1s;
     }
