@@ -6,7 +6,11 @@
     <WaveSection class="">
       <div class="container">
         <div class="flex justify-center mb-10">
-          <div class="flex bg-white p-2 rounded-lg">
+          <div
+            class="flex bg-white p-2 rounded-lg"
+            data-aos-delay="200"
+            data-aos="fade-center"
+          >
             <svg
               width="32"
               height="32"
@@ -28,14 +32,7 @@
           </div>
         </div>
         <div
-          class="
-            grid grid-cols-1
-            md:grid-cols-2
-            justify-items-center
-            gap-x-24 gap-y-10
-            md:gap-y-32
-            h-full
-          "
+          class="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-x-24 gap-y-10 md:gap-y-32 h-full"
         >
           <BlogCard
             v-for="article in searchArticle"

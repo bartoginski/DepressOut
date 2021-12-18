@@ -1,5 +1,5 @@
 <template>
-    <div class="dark:bg-dark-navy">
+    <div class="dark:bg-dark-navy overflow-hidden">
         <Header />
         <Nuxt />
         <CookiesBar />

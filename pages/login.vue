@@ -1,6 +1,5 @@
 <template>
-  <main class="">
-    <PageHeader>Logowanie</PageHeader>
+  <main class="pt-40">
     <LoginForm />
   </main>
 </template>
