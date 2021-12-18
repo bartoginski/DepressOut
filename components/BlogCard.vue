@@ -2,7 +2,7 @@
   <div
     data-aos="fade-in"
     data-aos-delay="300"
-    class="rounded-3xl bg-white p-8 md:p-11 flex justify-center flex-col max-w-lg"
+    class="rounded-3xl bg-white p-8 md:p-11 flex justify-center flex-col max-w-md"
   >
     <div class="flex justify-center items-center">
       <img
