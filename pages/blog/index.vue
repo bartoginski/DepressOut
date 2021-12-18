@@ -19,7 +19,12 @@
                 fill="#727272"
               />
             </svg>
-            <input v-model="searchValue" type="text" class="mx-4" placeholder="Szukaj"/>
+            <input
+              v-model="searchValue"
+              type="text"
+              class="mx-4"
+              placeholder="Szukaj"
+            />
           </div>
         </div>
         <div

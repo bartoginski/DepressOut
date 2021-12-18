@@ -33,7 +33,7 @@ export default {
     // Equivalent to { path: '~/components' }
     '~/components',
     { path: '~/components/sections', extensions: ['vue'] },
-    { path: '~/components/partials', extensions: ['vue'] },
+    { path: '~/components/buttons', extensions: ['vue'] },
     { path: '~/components/global', extensions: ['vue'] },
   ],
 
