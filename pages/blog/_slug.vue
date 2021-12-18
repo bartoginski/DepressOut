@@ -7,7 +7,7 @@
     />
     <div class="container blog-post text-lg">
       <article class="rounded-xl -mt-16 bg-white py-10 px-3 md:px-20 md:pb-20">
-        <div class="flex justify-between text-base">
+        <div class="flex justify-between text-base mb-6">
           <div class="flex gap-4 items-center">
             <span class="text-sm sm:text-base">{{ article.author }}</span>
             <div class="w-3 sm:w-6 bg-primary h-0.5"></div>
@@ -25,7 +25,6 @@
             Wróć
           </Nuxt-link>
         </div>
-        <img :src="article.img" :alt="article.alt" />
         <nuxt-content :document="article" />
       </article>
     </div>
@@ -98,7 +97,7 @@ export default {
   }
 
   p {
-    @apply py-2;
+    @apply pt-2 pb-4;
   }
 
   a {
@@ -139,6 +138,10 @@ export default {
 
   em {
     @apply text-light-gray italic;
+  }
+
+  i {
+    @apply text-primary;
   }
 }
 </style>

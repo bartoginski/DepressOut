@@ -2,16 +2,7 @@
   <div
     data-aos="fade-in"
     data-aos-delay="300"
-    class="
-      rounded-3xl
-      bg-white
-      p-8
-      md:p-11
-      flex
-      justify-center
-      flex-col
-      max-w-lg
-    "
+    class="rounded-3xl bg-white p-8 md:p-11 flex justify-center flex-col max-w-lg"
   >
     <div class="flex justify-center items-center">
       <img
@@ -21,9 +12,7 @@
       />
     </div>
     <div class="flex justify-between items-center py-5">
-      <span class="rounded-md p-1 bg-primary text-white">{{
-        article.tag
-      }}</span>
+      <span class="rounded-md p-1 bg-primary text-white">{{ article.tag }}</span>
       <span class="text-light-gray">Autor: {{ article.author }}</span>
     </div>
     <div>
@@ -48,5 +37,3 @@ export default {
   },
 }
 </script>
-
-
