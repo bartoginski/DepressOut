@@ -15,9 +15,9 @@ Młodzi ludzi znacznie częściej narażeni są na tego typu problem. Związane 
 ![img](/articles/sposoby.png)
 <figcaption>CBOS - KOMUNIKAT Z BADAŃ Nr 145/2018</figcaption>
 
-Badania wykazują, że poziom wykształcenia ma duży wpływ na wskaźnik objawów depresji. Osoby, które ukończyły szkołę z wykształceniem wyższym są mniej podatne na tę chorobę. Wskaźnik wykazuje iż objawy depresji są ponad dwukrotnie wyższe u osób z podstawowym czy też średnim wykształceniem. Na pogłębienie depresji ma wpływ stabilność naszej pracy oraz gwarancja do nie stracenia jej z dnia na dzień. 
+Badania wykazują, że poziom wykształcenia ma duży wpływ na wskaźnik objawów depresji. Osoby, które ukończyły szkołę z wykształceniem wyższym są mniej podatne na tę chorobę. Wskaźnik wykazuje, iż objawy depresji są ponad dwukrotnie wyższe u osób z podstawowym czy też średnim wykształceniem. Jednym z czynników pogłebiania się depresji jest brak stabilności zatrudnienia.
 
-Pomimo tego iż istnieje wiele skutecznych metod leczenia zaburzeń psychicznych ponad 75% ludzi w krajach o niskich dochodach nie otrzymuje wystarczającego wsparcia. Wpływ na to ma brak odpowiednich zasobów oraz brak dobrze wykwalifikowanych lekarzy. Specjaliści w tych krajach często błędnie diagnozują osoby z depresją, a osobom nie cierpiącym na tę chorobę przepisują leki antydepresyjne.
+Pomimo tego, iż istnieje wiele skutecznych metod leczenia zaburzeń psychicznych ponad 75% ludzi w krajach o niskich dochodach nie otrzymuje wystarczającego wsparcia. Wpływ na to ma brak odpowiednich zasobów oraz brak dobrze wykwalifikowanych lekarzy. Specjaliści w tych krajach często błędnie diagnozują osoby z depresją, a osobom nie cierpiącym na tę chorobę przepisują leki antydepresyjne.
 
 Działania podjęte aby wspomóc diagnozowanie i leczenie depresji:
 - Program działań <i>WHO</i> na rzecz luki w zakresie zdrowia psychicznego koncentruje się na pomocy krajom poprzez szkolenie niespecjalistów. 
