@@ -143,5 +143,9 @@ export default {
   i {
     @apply text-primary;
   }
+
+  figcaption {
+    @apply border-l-2 border-primary pl-4 text-dark-gray text-sm mb-4 italic;
+  }
 }
 </style>
