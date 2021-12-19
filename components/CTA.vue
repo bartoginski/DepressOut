@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-40">
+  <div class="container mt-24">
     <div
       class="text-white bg-primary px-14 py-8 rounded-2xl flex md:flex-row flex-col md:gap-24 gap-8 justify-center md:justify-between relative overflow-hidden"
     >
