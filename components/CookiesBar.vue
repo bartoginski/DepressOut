@@ -27,7 +27,8 @@
         class="
           text-sm
           md:text-xl
-          py-2
+          py-8
+          md:py-2
           px-10
           md:px-8
           whitespace-nowrap
@@ -40,7 +41,8 @@
         class="
           text-sm
           md:text-xl
-          py-2
+          py-6
+          md:py-2
           px-10
           md:px-8
           whitespace-nowrap
