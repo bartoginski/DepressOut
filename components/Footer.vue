@@ -1,38 +1,15 @@
 <template>
-  <footer class="bg-primary text-white pt-16 relative">
-    <div class="relative">
-      <div class="container">
-        <div class="flex flex-row justify-between">
+  <footer class="bg-primary text-white relative">
+    <div class="relative py-16 flex align-middle">
+      <div class="container flex flex-row justify-between align-middle">
+        <div class="flex flex-col gap-4 pt-4 p-10">
+          <!--TODO: ADD LINKS -->
           <div class="flex flex-col gap-4">
             <Nuxt-link to="/"><img src="~/assets/img/logo.svg" alt="" /></Nuxt-link>
             <a class="hover:opacity-90 transition-opacity" :href="'mailto' + email">{{ email }}</a>
           </div>
-          <ul
-            class="
-              flex flex-col
-              items-start
-              md:flex-row
-              md:justify-between
-              md:items-center
-              max-w-2xl
-              gap-2
-              md:gap-36
-            "
-          >
-            <li class="">
-              <NuxtLink class="menu__link" to="/depression">Depresja</NuxtLink>
-            </li>
-            <li class="">
-              <NuxtLink class="menu__link" to="/blog">Blog</NuxtLink>
-            </li>
-            <li class="">
-              <NuxtLink class="menu__link" to="/contact">Kontakt</NuxtLink>
-            </li>
-          </ul>
-        </div>
-        <div class="flex flex-row gap-4 pt-4 pb-12">
-          <!--TODO: ADD LINKS -->
-          <a class="social__icon" href="">
+          <div class="flex flex-row justify-between">
+            <a class="social__icon" href="">
             <svg
               width="29"
               height="30"
@@ -74,6 +51,49 @@
               />
             </svg>
           </a>
+          </div>
+        </div>
+
+        
+        <div class="">
+          <ul
+            class="
+              flex flex-col
+              items-start
+              md:flex-row
+              md:justify-between
+              md:items-start
+              max-w-max
+              gap-2
+              md:gap-24
+            "
+          >
+            <li class="font-black">
+              <NuxtLink class="menu__link" to="/depression">Depresja</NuxtLink>
+              <ul class=" font-extralight">
+                <li class="my-6">
+                  <NuxtLink class="menu__link" to="/blog">Co i jak?</NuxtLink>
+                </li>
+                <li class="my-6">
+                  <NuxtLink class="menu__link" to="/blog">Telefon pomocy</NuxtLink>
+                </li>
+                <li class="my-6">
+                  <NuxtLink class="menu__link" to="/blog">Rozeznanie</NuxtLink>
+                </li>
+              </ul>
+            </li>
+            <li class="font-black">
+              <NuxtLink class="menu__link" to="/depression">Blog</NuxtLink>
+              <ul class=" font-extralight">
+                <li class="my-6">
+                  <NuxtLink class="menu__link" to="/blog">Dołącz do nas</NuxtLink>
+                </li>
+              </ul>
+            </li>
+            <li class="font-black">
+              <NuxtLink class="menu__link" to="/contact">Kontakt</NuxtLink>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
