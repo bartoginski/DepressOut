@@ -5,13 +5,15 @@
       :tags="article.tag"
       :description="article.description"
     />
-    <div class="container blog-post text-lg">
+    <div class="container blog-post text-lg ">
       <article class="rounded-xl -mt-16 bg-white py-10 px-3 md:px-20 md:pb-20">
         <div class="flex justify-between text-base mb-6">
           <div class="flex gap-4 items-center">
             <span class="text-sm sm:text-base">{{ article.author }}</span>
             <div class="w-3 sm:w-6 bg-primary h-0.5"></div>
-            <span class="text-sm sm:text-base">{{ formatDate(article.updatedAt) }}</span>
+            <span class="text-sm sm:text-base">{{
+              formatDate(article.updatedAt)
+            }}</span>
           </div>
           <Nuxt-link to="/blog" class="flex gap-1">
             <svg
@@ -27,15 +29,20 @@
         </div>
         <nuxt-content :document="article" />
       </article>
+      <MorePosts :posts="articles" />
     </div>
   </section>
 </template>
 <script>
 export default {
   async asyncData({ $content, params }) {
+    const articles = await $content('articles') // instead of $content('articles', params.slug)
+      .sortBy('createdAt', 'desc')
+      .fetch()
+
     const article = await $content('articles', params.slug).fetch()
 
-    return { article }
+    return { articles, article }
   },
   methods: {
     formatDate(date) {

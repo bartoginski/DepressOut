@@ -38,13 +38,11 @@
             v-for="article in searchArticle"
             :key="article.slug"
             :article="article"
-            :data-article-title="article.title.toLowerCase()"
           />
         </div>
       </div>
     </WaveSection>
-    <MorePosts :posts="articles"/>
-    <Cta />
+    <CTA />
   </main>
 </template>
 
