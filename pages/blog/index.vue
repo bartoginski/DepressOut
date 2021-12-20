@@ -1,7 +1,7 @@
 <template>
   <!-- temporary added mb -->
   <!-- TODO: Delete it after adding new section -->
-  <main class="overflow-hidden mb-40">
+  <main class="overflow-hidden">
     <PageHeader> Blog </PageHeader>
     <WaveSection class="">
       <div class="container">

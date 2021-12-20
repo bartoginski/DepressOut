@@ -9,7 +9,7 @@
           md:text-left  
           container        
         ">
-            <h2 class="text-4xl md:text-6xl text-center">Dlaczego stowrzyliśmy ten projekt?</h2>
+            <h2 class="text-4xl md:text-6xl text-center">Dlaczego stworzyliśmy ten projekt?</h2>
         </div>
       <div class="
       gap-0 md:gap-40

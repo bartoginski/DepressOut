@@ -1,5 +1,5 @@
 <template>
-  <main class="py-24">
+  <main class="">
     <div class="container grid grid-cols-1 md:grid-cols-2">
       <div class="bg-primary p-12 sm:py-12 sm:pb-16 sm:px-16 font-extrabold text-white">
         <div class="pb-8">

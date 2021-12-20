@@ -1,23 +1,7 @@
 <template>
-  <div class="container mt-40">
+  <div class="container mt-24">
     <div
-      class="
-        text-white
-        bg-primary
-        px-14
-        py-8
-        rounded-2xl
-        flex
-        md:flex-row
-        flex-col
-        md:gap-24
-        gap-8
-        justify-center
-        md:justify-between
-        relative
-        overflow-hidden
-        before:absolute before:w-20 before:h-20 before:bg-white before:top-0
-      "
+      class="text-white bg-primary px-14 py-8 rounded-2xl flex md:flex-row flex-col md:gap-24 gap-8 justify-center md:justify-between relative overflow-hidden"
     >
       <img
         src="~/assets/img/CTA_male.svg"

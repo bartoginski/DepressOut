@@ -1,3 +1,3 @@
 <template>
-    <h1>Depresja</h1>
+    <h1>Nie bądź smutny, uśmiechnij się 😁</h1>
 </template>

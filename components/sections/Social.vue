@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 md:py-44">
+  <section class="pt-20 md:pt-44">
     <div class="container flex-row flex md:items-center gap-0 md:gap-40">
       <div
         data-aos-delay="300"
