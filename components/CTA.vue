@@ -3,13 +3,16 @@
     <div
       class="text-white bg-primary px-14 py-8 rounded-2xl flex md:flex-row flex-col md:gap-24 gap-8 justify-center md:justify-between relative overflow-hidden"
     >
-      <div
-        class="h-32 w-32 absolute -top-8 -left-8 rounded-full bg-primary-light"
-      ></div>
-      <div
-        class="h-96 w-96 absolute -bot-8 -right-8 rounded-full bg-primary-light"
-      ></div>
-
+      <img
+        src="~/assets/img/CTA_male.svg"
+        alt=""
+        class="absolute z-0 -left-1 -top-2"
+      />
+      <img
+        src="~/assets/img/CTA_duze.svg"
+        alt=""
+        class="absolute z-0 -right-2 -bottom-10"
+      />
       <div class="flex flex-col gap-10 z-10 text-center md:text-left">
         <h2 class="text-4xl font-bold">Jesteśmy tu, żeby pomóc</h2>
         <div class="text-xl justify-left">

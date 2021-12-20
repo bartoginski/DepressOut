@@ -5,6 +5,6 @@
       <Why />
       <WhatOffers />
     </WaveSection>
-      <GetHelp />
+      <CTA />
   </main>
 </template>
