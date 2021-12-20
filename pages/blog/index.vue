@@ -43,35 +43,33 @@
         </div>
       </div>
     </WaveSection>
+    <MorePosts :posts="articles"/>
     <Cta />
   </main>
 </template>
 
 <script>
-import aosMixin from '~/mixins/aos'
-
 export default {
-  mixins: [aosMixin],
-  async asyncData({ $content, params }) {
-    const articles = await $content('articles', params.slug)
-      .sortBy('createdAt', 'desc')
-      .fetch()
-    return { articles }
-  },
-  data() {
-    return {
-      searchValue: '',
-    }
-  },
-  computed: {
-    searchArticle() {
-      return this.articles.filter((el) => {
-        if (this.searchValue.trim() !== '') {
-          return el.title.toLowerCase().includes(this.searchValue.toLowerCase())
-        }
-        return true
-      })
+    async asyncData({ $content, params }) {
+        const articles = await $content("articles", params.slug)
+            .sortBy("createdAt", "desc")
+            .fetch();
+        return { articles };
     },
-  },
+    data() {
+        return {
+            searchValue: "",
+        };
+    },
+    computed: {
+        searchArticle() {
+            return this.articles.filter((el) => {
+                if (this.searchValue.trim() !== "") {
+                    return el.title.toLowerCase().includes(this.searchValue.toLowerCase());
+                }
+                return true;
+            });
+        },
+    }
 }
 </script>
