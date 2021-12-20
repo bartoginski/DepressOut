@@ -29,7 +29,6 @@
         </div>
         <nuxt-content :document="article" />
       </article>
-      <MorePosts :posts="articles" />
     </div>
   </section>
 </template>
