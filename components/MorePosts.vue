@@ -22,7 +22,7 @@
     </div>
     <div class="flex justify-end gap-10 md:gap-4 mt-8 md:mt-4 mr-4">
       <div
-        class="button-prev rounded-md bg-primary h-12 w-12 md:h-8 md:w-8 flex justify-center items-center transform rotate-180"
+        class="button-prev rounded-md bg-primary h-12 w-12 md:h-8 md:w-8 flex justify-center items-center transform rotate-180 cursor-pointer transition-all hover:bg-black"
       >
         <svg
           class="fill-current text-white top-0 h-8 w-8 md:h-4 md:w-4"
@@ -33,7 +33,7 @@
         </svg>
       </div>
       <div
-        class="button-next rounded-md bg-primary h-12 w-12 md:h-8 md:w-8 flex justify-center items-center"
+        class="button-next rounded-md bg-primary h-12 w-12 md:h-8 md:w-8 flex justify-center items-center cursor-pointer transition-all hover:bg-black"
       >
         <svg
           class="fill-current text-white top-0 h-8 w-8 md:h-4 md:w-4 -rotate-180"
