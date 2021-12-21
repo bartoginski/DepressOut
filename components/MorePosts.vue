@@ -1,5 +1,5 @@
 <template>
-  <section class=" container overflow-hidden">
+  <section class="container overflow-hidden">
     <h1 class="text-center mb-6">Zobacz też inne posty</h1>
     <div v-swiper="swiperOption" class="" :loadtheme="true">
       <div class="swiper-wrapper">
@@ -25,7 +25,7 @@
         class="button-prev rounded-md bg-primary h-12 w-12 md:h-8 md:w-8 flex justify-center items-center transform rotate-180"
       >
         <svg
-          class="fill-current text-white top-0 h-8 w-8 md:h-4 md:w-4 "
+          class="fill-current text-white top-0 h-8 w-8 md:h-4 md:w-4"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >
