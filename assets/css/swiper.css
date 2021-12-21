@@ -75,7 +75,7 @@
   height: auto;
 }
 .swiper-container-autoheight .swiper-wrapper {
-  align-items: flex-start;
+  align-items: start;
   transition-property: transform, height;
 }
 /* 3D Effects */
