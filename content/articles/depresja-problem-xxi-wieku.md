@@ -17,6 +17,9 @@ Młodzi ludzi znacznie częściej narażeni są na tego typu problem. Związane 
 
 Badania wykazują, że poziom wykształcenia ma duży wpływ na wskaźnik objawów depresji. Osoby, które ukończyły szkołę z wykształceniem wyższym są mniej podatne na tę chorobę. Wskaźnik wykazuje, iż objawy depresji są ponad dwukrotnie wyższe u osób z podstawowym czy też średnim wykształceniem. Jednym z czynników pogłebiania się depresji jest brak stabilności zatrudnienia.
 
+![img](/articles/objawy_depresji.png)
+<figcaption>Narodowy Instytut Zdrowia Publicznego PZN</figcaption>
+
 Pomimo tego, iż istnieje wiele skutecznych metod leczenia zaburzeń psychicznych ponad 75% ludzi w krajach o niskich dochodach nie otrzymuje wystarczającego wsparcia. Wpływ na to ma brak odpowiednich zasobów oraz brak dobrze wykwalifikowanych lekarzy. Specjaliści w tych krajach często błędnie diagnozują osoby z depresją, a osobom nie cierpiącym na tę chorobę przepisują leki antydepresyjne.
 
 Działania podjęte aby wspomóc diagnozowanie i leczenie depresji:
