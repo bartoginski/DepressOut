@@ -1,5 +1,5 @@
 <template>
-  <section class="">
+  <section class=" overflow-hidden">
     <Banner
       :title="article.title"
       :tags="article.tag"
@@ -29,26 +29,25 @@
         </div>
         <nuxt-content :document="article" />
       </article>
+      <MorePosts :posts="articles"/>
     </div>
   </section>
 </template>
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const articles = await $content('articles') // instead of $content('articles', params.slug)
-      .sortBy('createdAt', 'desc')
-      .fetch()
-
-    const article = await $content('articles', params.slug).fetch()
-
-    return { articles, article }
-  },
-  methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('pl', options)
+    async asyncData({ $content, params }) {
+        const articles = await $content("articles") // instead of $content('articles', params.slug)
+            .sortBy("createdAt", "desc")
+            .fetch();
+        const article = await $content("articles", params.slug).fetch();
+        return { articles, article };
     },
-  },
+    methods: {
+        formatDate(date) {
+            const options = { year: "numeric", month: "long", day: "numeric" };
+            return new Date(date).toLocaleDateString("pl", options);
+        },
+    },
 }
 </script>
 
