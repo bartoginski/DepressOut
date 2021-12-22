@@ -1,6 +1,6 @@
 ---
 title: Mit czy Fakt? 
-description: Dodać krótki opis! 
+description: Mity krążące wokół depresji.
 img: myths.svg
 alt: Mit czy Fakt? 
 tag: Depresja
