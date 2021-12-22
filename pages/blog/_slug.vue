@@ -89,7 +89,7 @@ export default {
   ul {
     @apply ml-1;
     li {
-      @apply ml-4 list-disc;
+      @apply ml-8 list-disc;
 
       &.task-list-item {
         @apply ml-0 list-none;
@@ -151,6 +151,10 @@ export default {
 
   figcaption {
     @apply border-l-2 border-primary pl-4 text-dark-gray text-sm mb-4 italic;
+  }
+
+  strong {
+    @apply font-black;
   }
 }
 </style>
