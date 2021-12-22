@@ -1,3 +1,5 @@
 <template>
-    <h1>Reset password</h1>
+  <main>
+    <reset-password-form />
+  </main>
 </template>

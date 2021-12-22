@@ -1,3 +1,9 @@
 <template>
-    <h1>Nie bądź smutny, uśmiechnij się 😁</h1>
+  <div>
+    <PageHeader>Depresja</PageHeader>
+    <WaveSection>
+    <RectangleHeader />
+    <Depressionv4 />
+    </WaveSection>
+  </div>
 </template>

@@ -13,7 +13,7 @@
     </svg>
 
     <!-- temporary set height for div -->
-    <div class="flex flex-col gap-20 md:gap-40 py-10 md:py-4 bg-primary">
+    <div class="flex flex-col gap-20 md:gap-40 py-10 md:py-4 bg-primary text-white">
       <slot></slot>
     </div>
     <svg
