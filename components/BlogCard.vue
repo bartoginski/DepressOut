@@ -16,7 +16,7 @@
       <span class="text-light-gray">Autor: {{ article.author }}</span>
     </div>
     <div>
-      <h4 class="text-2xl font-bold">{{ article.title }}</h4>
+      <h4 class="text-2xl font-bold text-black">{{ article.title }}</h4>
       <p class="text-l text-light-gray">{{ article.description }}</p>
     </div>
     <Nuxt-link
