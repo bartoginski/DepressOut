@@ -2,8 +2,7 @@
   <div>
     <PageHeader>Depresja</PageHeader>
     <WaveSection>
-    <RectangleHeader />
-    <Depressionv4 />
+    <AboutDepression />
     </WaveSection>
   </div>
 </template>
