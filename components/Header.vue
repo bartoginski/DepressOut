@@ -8,9 +8,7 @@
       </div>
       <ul v-show="!mobile" class="navigation">
         <li>
-          <NuxtLink class="link link--desktop" to="/depression"
-            >Depresja</NuxtLink
-          >
+          <NuxtLink class="link link--desktop" to="/depression">Depresja</NuxtLink>
         </li>
         <li>
           <NuxtLink class="link link--desktop" to="/blog">Blog</NuxtLink>
@@ -39,9 +37,7 @@
             /></Nuxt-link>
           </li>
           <li>
-            <NuxtLink class="link link--mobile" to="/depression"
-              >Depresja</NuxtLink
-            >
+            <NuxtLink class="link link--mobile" to="/depression">Depresja</NuxtLink>
           </li>
           <li>
             <NuxtLink class="link link--mobile" to="/blog">Blog</NuxtLink>
@@ -50,9 +46,7 @@
             <NuxtLink class="link link--mobile" to="/what">Co i jak</NuxtLink>
           </li>
           <li>
-            <NuxtLink class="link link--mobile" to="/phones"
-              >Telefony Pomocy</NuxtLink
-            >
+            <NuxtLink class="link link--mobile" to="/phones">Telefony Pomocy</NuxtLink>
           </li>
           <!-- <li>
             <NuxtLink class="link link--mobile" to="/login">Zaloguj</NuxtLink>
