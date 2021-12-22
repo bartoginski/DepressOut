@@ -1,20 +1,20 @@
 <template>
-<div>
-  <div class="flex items-center justify-center relative">
-  <div
-    class="box-content h-24 w-2/4 p-4 border-4 border-white">
+  <div class="container flex justify-center">
+    <div class="relative">
+      <span
+        data-aos-delay="300"
+        data-aos="fade-right"
+        data-aos-anchor-placement="top-center"
+        class="w-full h-full absolute -top-4 -left-4 sm:-top-5 sm:-left-5 border-4 border-white"
+      ></span>
+      <h2
+        data-aos-delay="300"
+        data-aos="fade-left"
+        data-aos-anchor-placement="top-center"
+        class="text-3xl sm:text-4xl lg:text-6xl p-4 sm:p-5 bg-white text-primary relative inline-block"
+      >
+        <slot></slot>
+      </h2>
+    </div>
   </div>
-  </div>
-  <div class="flex-10 flex items-center justify-center -mr-14 -mt-40">
-  <div
-    class="box-content h-24 w-2/4 p-4 border-4 border-white bg-white">
-    <p class="font-bold">
-          <span class="text-primary text-8xl flex flex-col gap-100 font-bold text-center">
-           Objawy depresji
-          </span>
-        <br />
-    </p>
-  </div>
-  </div>
-</div>
 </template>
