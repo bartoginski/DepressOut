@@ -2,7 +2,7 @@
   <div>
     <PageHeader>Depresja</PageHeader>
     <WaveSection>
-    <AboutDepression />
+      <AboutDepression />
     <Symptoms />
     </WaveSection>
   </div>

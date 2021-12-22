@@ -6,7 +6,7 @@
       data-aos="fade-in"
       class="container flex-col flex md:items-center gap-0 md:gap-20 mt-0 mb-0"
     >
-      <div class="text-3xl flex flex-col gap-10">
+      <div class="text-2xl md:text-3xl lg:text-4xl flex flex-col gap-10">
         <p class="font-bold">
           <span class="text-white"
             >Według Światowej Organizacji Zdrowia (WHO) depresja jest wiodącą
