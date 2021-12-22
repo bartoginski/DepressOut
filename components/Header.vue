@@ -15,9 +15,10 @@
         <li>
           <NuxtLink class="link link--desktop" to="/blog">Blog</NuxtLink>
         </li>
-        <li>
+        <!-- temporary disabled /zaloguj -->
+        <!-- <li>
           <NuxtLink class="link link--desktop" to="/login">Zaloguj</NuxtLink>
-        </li>
+        </li> -->
       </ul>
       <div class="icon">
         <i
@@ -45,9 +46,9 @@
           <li>
             <NuxtLink class="link link--mobile" to="/blog">Blog</NuxtLink>
           </li>
-          <li>
+          <!-- <li>
             <NuxtLink class="link link--mobile" to="/login">Zaloguj</NuxtLink>
-          </li>
+          </li> -->
         </ul>
       </transition>
     </nav>
@@ -106,7 +107,7 @@ header {
     display: flex;
     flex-direction: row;
     padding: 12px 0;
-    transition: 0.5s ease all;
+    transition: 0.3s ease all;
     width: 90%;
     margin: 0 auto;
     @media (min-width: 768px) {
