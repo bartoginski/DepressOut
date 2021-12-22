@@ -79,11 +79,11 @@
             <li class="font-black">
               <NuxtLink class="menu__link" to="/blog">Blog</NuxtLink>
               <ul class="font-extralight">
-                <li class="my-6">
+                <!-- <li class="my-6">
                   <NuxtLink class="menu__link" to="/blog"
                     >Dołącz do nas</NuxtLink
                   >
-                </li>
+                </li> -->
               </ul>
             </li>
             <li class="font-black">
