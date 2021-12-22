@@ -8,7 +8,9 @@
       </div>
       <ul v-show="!mobile" class="navigation">
         <li>
-          <NuxtLink class="link link--desktop" to="/depression">Depresja</NuxtLink>
+          <NuxtLink class="link link--desktop" to="/depression"
+            >Depresja</NuxtLink
+          >
         </li>
         <li>
           <NuxtLink class="link link--desktop" to="/blog">Blog</NuxtLink>
@@ -31,10 +33,14 @@
       <transition name="mobile-nav">
         <ul v-show="mobileNav" class="dropdown-nav">
           <li>
-            <Nuxt-link to="/"><img src="~/assets/img/logo_black.svg" alt="logo" /></Nuxt-link>
+            <Nuxt-link to="/"
+              ><img src="~/assets/img/logo_black.svg" alt="logo"
+            /></Nuxt-link>
           </li>
           <li>
-            <NuxtLink class="link link--mobile" to="/depression">Depresja</NuxtLink>
+            <NuxtLink class="link link--mobile" to="/depression"
+              >Depresja</NuxtLink
+            >
           </li>
           <li>
             <NuxtLink class="link link--mobile" to="/blog">Blog</NuxtLink>
@@ -67,7 +73,7 @@ export default {
       this.mobileNav = !this.mobileNav
     },
     awayMobileNav() {
-      this.mobileNav = false;
+      this.mobileNav = false
     },
 
     checkScreen() {
@@ -87,10 +93,13 @@ header {
   background-color: #28dcc3;
   z-index: 99;
   width: 100%;
-  height: 90px;
+  height: 100px;
   position: fixed;
   transition: 0.5s ease all;
   color: white;
+  @media (max-width: 768px) {
+    height: auto;
+  }
 
   nav {
     position: relative;
@@ -102,6 +111,10 @@ header {
     margin: 0 auto;
     @media (min-width: 768px) {
       max-width: 768px;
+      height: 100%;
+    }
+    @media (max-width: 768px) {
+      justify-content: space-between;
     }
 
     li {
@@ -110,7 +123,6 @@ header {
       margin-left: 16px;
     }
     .link {
-      
       cursor: pointer;
       &--desktop {
         font-size: 1.5rem;
@@ -120,7 +132,6 @@ header {
       &--mobile {
         font-size: 1.5rem;
         line-height: 2rem;
-        
       }
 
       &:hover {
