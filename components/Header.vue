@@ -20,6 +20,7 @@
       <div class="icon">
         <i
           v-show="mobile"
+          v-on-clickaway="awayMobileNav"
           class="far fa-bars"
           :class="{ 'icon-active': mobileNav }"
           @click="toggleMobileNav"
@@ -29,6 +30,9 @@
       </div>
       <transition name="mobile-nav">
         <ul v-show="mobileNav" class="dropdown-nav">
+          <li>
+            <Nuxt-link to="/"><img src="~/assets/img/logo_black.svg" alt="logo" /></Nuxt-link>
+          </li>
           <li>
             <NuxtLink class="link link--mobile" to="/depression">Depresja</NuxtLink>
           </li>
@@ -62,6 +66,9 @@ export default {
     toggleMobileNav() {
       this.mobileNav = !this.mobileNav
     },
+    awayMobileNav() {
+      this.mobileNav = false;
+    },
 
     checkScreen() {
       this.windowWidth = window.innerWidth
@@ -77,12 +84,13 @@ export default {
 </script>
 <style lang="scss" scoped>
 header {
-  background-color: white;
+  background-color: #28dcc3;
   z-index: 99;
   width: 100%;
+  height: 90px;
   position: fixed;
   transition: 0.5s ease all;
-  color: black;
+  color: white;
 
   nav {
     position: relative;
@@ -95,32 +103,28 @@ header {
     @media (min-width: 768px) {
       max-width: 768px;
     }
+
     li {
       text-transform: uppercase;
       padding: 16px;
       margin-left: 16px;
     }
     .link {
-      font-size: 14px;
-      transition: 0.5s ease all;
-      padding-bottom: 4px;
-      border-bottom: 1px solid transparent;
-      font-weight: 500;
-      color: black;
-      list-style: none;
-      text-decoration: none;
-
+      
+      cursor: pointer;
       &--desktop {
-        font-size: 20px;
+        font-size: 1.5rem;
+        line-height: 2rem;
       }
 
       &--mobile {
-        color: white;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        
       }
 
       &:hover {
-        color: '#28dcc3';
-        text-decoration: 3px underline #28dcc3;
+        @apply hover:opacity-80 transition-opacity;
       }
     }
     .branding {
@@ -143,14 +147,9 @@ header {
     .icon {
       display: flex;
       align-items: center;
-      position: absolute;
-      top: 0;
-      right: 24px;
-      height: 100%;
 
       i {
         cursor: pointer;
-        font-size: 25px;
         transition: 0.8s ease all;
       }
     }
