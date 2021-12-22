@@ -1,5 +1,5 @@
 <template>
-  <div class="container flex justify-center">
+  <div class="container flex justify-center mb-20">
     <div class="relative">
       <span
         data-aos-delay="300"
