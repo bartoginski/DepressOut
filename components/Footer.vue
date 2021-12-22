@@ -131,5 +131,3 @@ footer {
   }
 }
 </style>
-
-
