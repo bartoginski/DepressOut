@@ -128,8 +128,4 @@ footer {
     }
   }
 }
-<<<<<<< HEAD
 </style>
-=======
-</style>
->>>>>>> a446d68565e77b0ef35ea1a848a9c892954ebce7
