@@ -11,7 +11,7 @@
         <h2 class="text-4xl md:text-6xl text-center">Daj sobie pomóc</h2>
       </div>
       <div
-        class="gap-0 md:gap-40 text-primary text-center md:text-left flex-1 justify-center md:justify-end flex-row flex md:items-left"
+        class="gap-0 md:gap-40 text-primary text-center md:text-left justify-center md:justify-end flex-row flex md:items-left align-middle"
       >
         <div
           data-aos-delay="300"
@@ -43,13 +43,8 @@
             </p>
           </div>
         </div>
-        <div
-          data-aos-delay="300"
-          data-aos="fade-left"
-          class="flex-1 justify-end hidden md:block"
-        >
-          <img src="~/assets/img/what_gethelp.svg" alt="" />
-        </div>
+          <img src="~/assets/img/what_gethelp.svg" alt="" data-aos-delay="300" data-aos="fade-left"
+          class="flex-1 justify-end hidden md:block align-middle" />
       </div>
     </div>
   </section>

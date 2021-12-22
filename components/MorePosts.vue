@@ -1,6 +1,6 @@
 <template>
   <section class="container overflow-hidden">
-    <h1 class="text-center mb-6">Zobacz też inne posty</h1>
+    <h1 class="text-center mb-6">Zobacz także inne posty</h1>
     <div v-swiper="swiperOption" class="" :loadtheme="true">
       <div class="swiper-wrapper">
         <div v-for="post in posts" :key="post.title" class="swiper-slide">
