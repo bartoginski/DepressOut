@@ -26,8 +26,9 @@
             <input
               v-model="searchValue"
               type="text"
-              class="mx-4"
+              class="mx-4 placeholder:text-light-gray text-black px-1"
               placeholder="Szukaj"
+              autofocus
             />
           </div>
         </div>
@@ -40,6 +41,14 @@
             :article="article"
           />
         </div>
+        <h2
+          v-if="searchArticle.length === 0"
+          data-aos-delay="200"
+          data-aos="fade-center"
+          class="text-6xl text-center py-20"
+        >
+          Nie znaleziono postów :((
+        </h2>
       </div>
     </WaveSection>
     <CTA />

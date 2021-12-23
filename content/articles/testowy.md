@@ -1,15 +1,16 @@
 ---
-title: My second Blog Post
-description: Learning how to do anything
+title: Testowy post 
+description: Post stworzony na potrzeby testowania
 img: first.svg
-alt: my first blog post
+alt: testowy post
 tag: Deprejsa
-author: Mateusz Jaromin
+author: Ogi
 ---
 
 # My first blog post
 
-Second post btw
+Nostrud fugiat fugiat officia laboris do. Officia reprehenderit reprehenderit sit veniam consectetur aliqua nisi anim id non cupidatat est ullamco veniam. Ex veniam labore laborum eu sit enim Lorem magna nostrud id. Consequat excepteur consectetur culpa irure proident. Ipsum consequat nostrud aliquip qui laborum aliquip nisi cupidatat. Proident irure incididunt in incididunt. Amet proident nostrud consequat eu.
+
 
 # H1
 
