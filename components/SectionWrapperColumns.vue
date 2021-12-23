@@ -2,12 +2,6 @@
   <section>
     <div class="container">
       <slot name="title"></slot>
-      <h2 data-aos-delay="300"
-          data-aos="fade-down"
-          class="text-4xl md:text-6xl text-center mb-10">
-        <slot name="animated-title"></slot>
-      </h2>
-
       <div
         class="text-xl xl:text-2xl grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-40 text-center md:text-left"
       >

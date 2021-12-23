@@ -1,6 +1,8 @@
 <template>
   <SectionWrapperColumns class="text-primary">
-    <template #animated-title>Daj sobie pomóc</template>
+    <template #title>
+      <SimpleHeader>Daj sobie pomóc</SimpleHeader>
+    </template>
     <template #col-left>
       <p>
         Wraz z całym zespołem działamy w pocie czoła, by stworzyć dla

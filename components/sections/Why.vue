@@ -1,6 +1,8 @@
 <template>
   <SectionWrapperColumns>
-    <template #animated-title> Dlaczego stworzyliśmy ten projekt? </template>
+    <template #title>
+      <SimpleHeader>Dlaczego stworzyliśmy ten projekt? </SimpleHeader>
+    </template>
     <template #col-left>
       <p>
         Według ankiety, którą przeprowadziliśmy, aż 75% ankietowanych zna osobę

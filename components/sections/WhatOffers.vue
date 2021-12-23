@@ -1,6 +1,8 @@
 <template>
   <SectionWrapperColumns>
-    <template #animated-title>Co oferuje *nazwa*</template>
+    <template #title>
+      <SimpleHeader>Co oferuje *nazwa*</SimpleHeader>
+    </template>
     <template #col-left>
       <img
         class="hidden md:block"
