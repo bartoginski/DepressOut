@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-24">
     <svg
       class="w-full h-full fill-current text-primary wave__top"
       width="1439"
