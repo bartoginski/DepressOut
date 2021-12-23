@@ -7,12 +7,24 @@
         </Nuxt-link>
       </div>
       <ul v-show="!mobile" class="navigation">
+        <div class="right-menu">
         <li>
-          <NuxtLink class="link link--desktop" to="/depression">Depresja</NuxtLink>
+          <NuxtLink class="link link--desktop menu-button" to="/depression">Depresja</NuxtLink>
         </li>
+        <div class="dropdown-menu">
+          <NuxtLink class="link link--desktop a" to="/depression">Co i jak?</NuxtLink>
+          <NuxtLink class="link link--desktop a" to="/depression">Telefony Pomocy </NuxtLink>
+          <NuxtLink class="link link--desktop a" to="/depression">Rozeznanie</NuxtLink>
+        </div>
+        </div>
+        <div class="right-menu">
         <li>
-          <NuxtLink class="link link--desktop" to="/blog">Blog</NuxtLink>
+          <NuxtLink class="link link--desktop menu-button" to="/blog">Blog</NuxtLink>
         </li>
+        <div class="dropdown-menu">
+          <NuxtLink class="link link--desktop a" to="/depression">Dołącz do nas!</NuxtLink>
+        </div>
+        </div>
         <!-- temporary disabled /zaloguj -->
         <!-- <li>
           <NuxtLink class="link link--desktop" to="/login">Zaloguj</NuxtLink>
@@ -93,13 +105,14 @@ export default {
 </script>
 <style lang="scss" scoped>
 header {
-  background-color: #28dcc3;
+  border-bottom: 3px solid #28dcc3;
+  background-color: white;
   z-index: 99;
   width: 100%;
   height: 100px;
   position: fixed;
   transition: 0.5s ease all;
-  color: white;
+  color: black;
   @media (max-width: 768px) {
     height: auto;
   }
@@ -108,7 +121,6 @@ header {
     position: relative;
     display: flex;
     flex-direction: row;
-    padding: 12px 0;
     transition: 0.3s ease all;
     width: 90%;
     margin: 0 auto;
@@ -119,11 +131,54 @@ header {
     @media (max-width: 768px) {
       justify-content: space-between;
     }
-
+    //menu hover
+    .menu-button{
+      background-color: white;
+      cursor: pointer;
+      padding-top: 0;
+    }
+    .right-menu{
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-menu{
+      border-top: 3px solid #28dcc3;
+      display: none;
+      border: 1px solid black;
+      position: absolute;
+      width: 100%;
+      color: white;
+      background-color: #28dcc3;
+      z-index: 1;
+    }
+    .dropdown-menu a:hover{
+      border: 1px solid black;
+      color: black;
+      background-color: white;
+      transition: all 1s ease ;
+    }
+    .right-menu:hover .dropdown-menu{
+      display: block;
+    }
+    .right-menu:hover .menu-button{
+      background-color: transparent;
+    }
+    .dropdown-menu a{
+      height: 75px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    //koniec menu hover
     li {
+      min-width: 150px;
       text-transform: uppercase;
-      padding: 16px;
-      margin-left: 16px;
+      height: 97px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .link {
       cursor: pointer;
@@ -137,9 +192,9 @@ header {
         line-height: 2rem;
       }
 
-      &:hover {
-        @apply hover:opacity-80 transition-opacity;
-      }
+      //&:hover {
+      //  @apply hover:opacity-80 transition-opacity;
+      //}
     }
     .branding {
       display: flex;
