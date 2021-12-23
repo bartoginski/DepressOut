@@ -4,6 +4,7 @@
     <WaveSection>
       <AboutDepression />
     <Symptoms />
+    <Counter />
     </WaveSection>
   </div>
 </template>

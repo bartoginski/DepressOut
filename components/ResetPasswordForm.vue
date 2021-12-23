@@ -5,7 +5,7 @@
         <p>Podaj adres e-mail użyty podczas zakładania konta, </p>
         <p>a prześlemy Ci łącze umożliwiające zresetowanie hasła.</p>
 
-        <form class="flex flex-col justify-center mt-10 px-20" method="post">
+        <form class="flex flex-col justify-center mt-10 px-2" method="post">
           <label class="flex flex-col font-bold">Email / Nazwa użytkownika
             <input type="username" name="username" placeholder="np. Ogi_koxPL" />
           </label>
