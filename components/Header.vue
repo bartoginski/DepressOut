@@ -133,37 +133,56 @@ header {
     }
     //menu hover
     .menu-button{
-      background-color: white;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       cursor: pointer;
       padding-top: 0;
     }
+    .menu-button:hover{
+      background-color: #28dcc3;
+      @apply hover:opacity-80 transition-opacity;
+    }
+
     .right-menu{
       position: relative;
       display: inline-block;
     }
+    .right-menu:hover{
+      background-color: #28dcc3;
+      color: white;
+    }
     .dropdown-menu{
-      border-top: 3px solid #28dcc3;
       display: none;
-      border: 1px solid black;
       position: absolute;
       width: 100%;
       color: white;
       background-color: #28dcc3;
       z-index: 1;
+      animation: growDown 300ms ease-in-out forwards;
+      transform-origin: top center;
     }
     .dropdown-menu a:hover{
-      border: 1px solid black;
-      color: black;
-      background-color: white;
-      transition: all 1s ease ;
+      @apply hover:opacity-80 transition-opacity;
     }
     .right-menu:hover .dropdown-menu{
       display: block;
     }
-    .right-menu:hover .menu-button{
-      background-color: transparent;
+    @keyframes growDown {
+      0% {
+      transform: scaleY(0)
+      }
+      80% {
+      transform: scaleY(1.1)
+      }
+      100% {
+      transform: scaleY(1)
+      }
     }
     .dropdown-menu a{
+      border-top: 3px solid white;
       height: 75px;
       text-align: center;
       display: flex;
@@ -216,6 +235,8 @@ header {
     .icon {
       display: flex;
       align-items: center;
+      padding-top: 28px;
+      padding-bottom: 28px;
 
       i {
         cursor: pointer;
@@ -234,11 +255,15 @@ header {
       height: 100%;
       background-color: #28dcc3;
       border-right: 4px solid white;
+      color: white;
       top: 0;
       left: 0;
 
       li {
         margin-left: 0;
+      }
+      li :hover{
+        @apply hover:opacity-80 transition-opacity;
       }
     }
 
