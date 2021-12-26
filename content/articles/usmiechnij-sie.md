@@ -43,5 +43,5 @@ Chwilę temu nauczyliśmy się jak nie postępować i czego nie mówić, przysze
 - Nie krytykuj i nie oceniaj - ważne jest abyś wykazywał się zrozumieniem i nie oceniał decyzji ani zachowań chorego. 
 
 
-Pamiętajmy aby rozmawiać nie tylko o chorobie ale także o tematach na, które rozmawialiście zawsze. Zaproponuj krótki spacer. Swoją obecnością jak i słowami spraw żeby nie czuła się samotna i wiedziała, że ma na kim polegać. 
+Pamiętajmy aby rozmawiać nie tylko o chorobie ale także o tematach, na które rozmawialiście zawsze. Zaproponuj krótki spacer. Swoją obecnością jak i słowami spraw żeby nie czuła się samotna i wiedziała, że ma na kim polegać. 
 
