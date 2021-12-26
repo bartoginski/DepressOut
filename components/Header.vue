@@ -3,7 +3,7 @@
     <nav>
       <div class="branding">
         <Nuxt-link to="/">
-          <img src="~/assets/img/logo_black.svg" alt="logo" />
+          <img src="~/assets/img/logo.svg" alt="logo" />
         </Nuxt-link>
       </div>
       <ul v-show="!mobile" class="navigation">
@@ -53,7 +53,7 @@
         <ul v-show="mobileNav" class="dropdown-nav">
           <li>
             <Nuxt-link to="/"
-              ><img src="~/assets/img/logo_black.svg" alt="logo"
+              ><img src="~/assets/img/logo_white.svg" alt="logo" class="logo__mobile"
             /></Nuxt-link>
           </li>
           <li>
@@ -232,8 +232,14 @@ header {
       align-items: center;
 
       img {
-        width: 50px;
+        width: 120px;
         transition: 0.5s ease all;
+      }
+    }
+
+    .logo {
+      &__mobile {
+        width: 120px;
       }
     }
 

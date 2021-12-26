@@ -6,7 +6,7 @@
           <!--TODO: ADD LINKS -->
           <div class="flex flex-col gap-4">
             <Nuxt-link to="/"
-              ><img src="~/assets/img/logo.svg" alt=""
+              ><img src="~/assets/img/logo_white.svg" alt="" class="w-32 md:w-40"
             /></Nuxt-link>
             <a
               class="hover:opacity-90 transition-opacity"
