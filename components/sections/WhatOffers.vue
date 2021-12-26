@@ -1,7 +1,7 @@
 <template>
   <SectionWrapperColumns>
     <template #title>
-      <SimpleHeader>Co oferuje *nazwa*</SimpleHeader>
+      <SimpleHeader>Co oferuje DepressOut</SimpleHeader>
     </template>
     <template #col-left>
       <img

@@ -3,8 +3,9 @@
     <PageHeader>Depresja</PageHeader>
     <WaveSection>
       <AboutDepression />
-    <Symptoms />
-    <Counter />
+      <Symptoms />
+      <Counter />
+      <StatsSlider />
     </WaveSection>
   </div>
 </template>

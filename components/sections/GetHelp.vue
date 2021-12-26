@@ -11,7 +11,7 @@
         nawet telefon pomocy w krytycznych sytuacjach.
       </p>
       <p>
-        *nazwa projektu* oferuje założenie prywatnego profilu, w którym
+        DepressOut oferuje założenie prywatnego profilu, w którym
         użytkownicy mogą śledzić swój nastrój w ciągu dnia, tygodnia a nawet
         miesiąca, dzięki czemu łatwiej będzie rozpoznać stopień zaawansowania
         depresji i podpowiedzieć najlepsze sposoby radzenia sobie z problemem.

@@ -1,6 +1,6 @@
-npm<template>
+<template>
   <main>
-    <PageHeader> Psycha is sitting </PageHeader>
+    <PageHeader> DepressOut </PageHeader>
     <WaveSection>
       <Help />
       <About />

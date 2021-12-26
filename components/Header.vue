@@ -8,22 +8,30 @@
       </div>
       <ul v-show="!mobile" class="navigation">
         <div class="right-menu">
-        <li>
-          <NuxtLink class="link link--desktop menu-button" to="/depression">Depresja</NuxtLink>
-        </li>
-        <div class="dropdown-menu">
-          <NuxtLink class="link link--desktop a" to="/depression">Co i jak?</NuxtLink>
-          <NuxtLink class="link link--desktop a" to="/depression">Telefony Pomocy </NuxtLink>
-          <NuxtLink class="link link--desktop a" to="/depression">Rozeznanie</NuxtLink>
-        </div>
+          <li>
+            <NuxtLink class="link link--desktop menu-button" to="/depression"
+              >Depresja</NuxtLink
+            >
+          </li>
+          <div class="dropdown-menu">
+            <NuxtLink class="link link--desktop a" to="/what"
+              >Co i jak?</NuxtLink
+            >
+            <NuxtLink class="link link--desktop a" to="/depression"
+              >Telefony Pomocy
+            </NuxtLink>
+            <!-- <NuxtLink class="link link--desktop a" to="/depression">Rozeznanie</NuxtLink> -->
+          </div>
         </div>
         <div class="right-menu">
-        <li>
-          <NuxtLink class="link link--desktop menu-button" to="/blog">Blog</NuxtLink>
-        </li>
-        <div class="dropdown-menu">
+          <li>
+            <NuxtLink class="link link--desktop menu-button" to="/blog"
+              >Blog</NuxtLink
+            >
+          </li>
+          <!-- <div class="dropdown-menu">
           <NuxtLink class="link link--desktop a" to="/depression">Dołącz do nas!</NuxtLink>
-        </div>
+        </div> -->
         </div>
         <!-- temporary disabled /zaloguj -->
         <!-- <li>
@@ -49,7 +57,9 @@
             /></Nuxt-link>
           </li>
           <li>
-            <NuxtLink class="link link--mobile" to="/depression">Depresja</NuxtLink>
+            <NuxtLink class="link link--mobile" to="/depression"
+              >Depresja</NuxtLink
+            >
           </li>
           <li>
             <NuxtLink class="link link--mobile" to="/blog">Blog</NuxtLink>
@@ -58,7 +68,9 @@
             <NuxtLink class="link link--mobile" to="/what">Co i jak</NuxtLink>
           </li>
           <li>
-            <NuxtLink class="link link--mobile" to="/phones">Telefony Pomocy</NuxtLink>
+            <NuxtLink class="link link--mobile" to="/phones"
+              >Telefony Pomocy</NuxtLink
+            >
           </li>
           <!-- <li>
             <NuxtLink class="link link--mobile" to="/login">Zaloguj</NuxtLink>
@@ -132,7 +144,7 @@ header {
       justify-content: space-between;
     }
     //menu hover
-    .menu-button{
+    .menu-button {
       width: 100%;
       height: 100%;
       display: flex;
@@ -141,20 +153,20 @@ header {
       cursor: pointer;
       padding-top: 0;
     }
-    .menu-button:hover{
+    .menu-button:hover {
       background-color: #28dcc3;
       @apply hover:opacity-80 transition-opacity;
     }
 
-    .right-menu{
+    .right-menu {
       position: relative;
       display: inline-block;
     }
-    .right-menu:hover{
+    .right-menu:hover {
       background-color: #28dcc3;
       color: white;
     }
-    .dropdown-menu{
+    .dropdown-menu {
       display: none;
       position: absolute;
       width: 100%;
@@ -164,24 +176,24 @@ header {
       animation: growDown 300ms ease-in-out forwards;
       transform-origin: top center;
     }
-    .dropdown-menu a:hover{
+    .dropdown-menu a:hover {
       @apply hover:opacity-80 transition-opacity;
     }
-    .right-menu:hover .dropdown-menu{
+    .right-menu:hover .dropdown-menu {
       display: block;
     }
     @keyframes growDown {
       0% {
-      transform: scaleY(0)
+        transform: scaleY(0);
       }
       80% {
-      transform: scaleY(1.1)
+        transform: scaleY(1.1);
       }
       100% {
-      transform: scaleY(1)
+        transform: scaleY(1);
       }
     }
-    .dropdown-menu a{
+    .dropdown-menu a {
       border-top: 3px solid white;
       height: 75px;
       text-align: center;
@@ -262,7 +274,7 @@ header {
       li {
         margin-left: 0;
       }
-      li :hover{
+      li :hover {
         @apply hover:opacity-80 transition-opacity;
       }
     }
