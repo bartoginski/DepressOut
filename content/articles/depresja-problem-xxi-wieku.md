@@ -24,4 +24,4 @@ Pomimo tego, iż istnieje wiele skutecznych metod leczenia zaburzeń psychicznyc
 
 Działania podjęte aby wspomóc diagnozowanie i leczenie depresji:
 - Program działań <i>WHO</i> na rzecz luki w zakresie zdrowia psychicznego koncentruje się na pomocy krajom poprzez szkolenie pseudo-specjalistów. 
-- W celu pomocy w zapobieganiu i leczeniu depresji Światowe Zgromadzenie Zdrowia przyjęło kilka rezolucji. Jedną z nich pochodzi z maja 2013 r. wzywa do kompleksowej, skoordynowanej reakcji na zaburzenia psychiczne na szczeblu krajowym.
+- W celu pomocy w zapobieganiu i leczeniu depresji Światowe Zgromadzenie Zdrowia przyjęło kilka rezolucji. Jedna z nich pochodzi z maja 2013 r. i wzywa do kompleksowej, skoordynowanej reakcji na zaburzenia psychiczne na szczeblu krajowym.
