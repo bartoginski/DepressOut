@@ -4,7 +4,7 @@
     <WaveSection>
       <AboutDepression />
       <Symptoms />
-      <Counter />
+      <!-- <Counter /> -->
       <!-- <StatsSlider />  -->
     </WaveSection>
   </div>
