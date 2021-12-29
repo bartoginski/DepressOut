@@ -5,10 +5,21 @@
       <div
         data-aos-delay="300"
         data-aos="fade-in"
-        class="text-xl xl:text-2xl flex flex-col gap-5"
+        :class="`text-xl xl:text-2xl flex flex-col gap-${gap}`"
       >
         <slot name="content"></slot>
       </div>
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  props: {
+    gap: {
+      type: String,
+      default: '5',
+    },
+  },
+}
+</script>
