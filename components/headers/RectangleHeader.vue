@@ -14,6 +14,7 @@
         class="text-3xl sm:text-4xl lg:text-6xl p-4 sm:p-5 bg-white text-primary relative inline-block"
       >
         <slot></slot>
+        <span class="text-xl sm:text-2xl lg:text-3xl text-center block mt-4"><slot name="subtitle"></slot></span>
       </h2>
     </div>
   </div>
