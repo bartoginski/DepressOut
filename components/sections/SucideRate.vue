@@ -9,7 +9,7 @@
    
     
     <template #col-left>
-        <div class="flex flex-col items-center justify-center text-center">
+        <div class="flex flex-col items-center justify-center text-center py-6">
             <div class="flex flex-col items-center justify-center text-center">
                 <img 
                     class="w-6/12 md:w-11/12"
@@ -18,13 +18,13 @@
                     />
             </div>
             <div>
-                <div class="text-2xl md:text-4xl">4638 samobójstw</div>
-                <div class="text-1xl md:text-2xl">(85,8% przypadków)</div>
+                <div class="text-3xl md:text-4xl">4638 samobójstw</div>
+                <div class="text-2xl md:text-3xl">(85,8% przypadków)</div>
             </div>
         </div>
     </template>
     <template #col-right>
-        <div class="flex flex-col items-center justify-center text-center">
+        <div class="flex flex-col items-center justify-center text-center py-6">
             <div class="flex flex-col items-center justify-center text-center">
                 <img 
                     class="w-6/12 md:w-11/12"
@@ -33,8 +33,8 @@
                     />
             </div>
             <div>
-                <div class="text-2xl md:text-4xl">767 samobójstw</div>
-                <div class="text-1xl md:text-2xl">(14,2% przypadków) </div>
+                <div class="text-3xl md:text-4xl">767 samobójstw</div>
+                <div class="text-2xl md:text-3xl">(14,2% przypadków) </div>
             </div>
         </div>
     </template>
