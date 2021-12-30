@@ -21,7 +21,7 @@
           <ul>
             <li>Wyraźny spadek lub wzrost wagi</li>
             <li>Bezsenność lub nadmierna senność</li>
-            <li>Problemy z koncetracją</li>
+            <li>Problemy z koncentracją</li>
             <li>Spadek sprawności myślenia</li>
           </ul>
         </div>
