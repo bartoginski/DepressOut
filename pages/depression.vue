@@ -6,6 +6,7 @@
       <Symptoms />
       <!-- <Counter /> -->
       <SucideRate />
+      <Stats />
     </WaveSection>
   </div>
 </template>
