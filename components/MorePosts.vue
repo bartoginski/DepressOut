@@ -4,17 +4,18 @@
     <div v-swiper="swiperOption" class="" :loadtheme="true">
       <div class="swiper-wrapper">
         <div v-for="post in posts" :key="post.title" class="swiper-slide">
-          <NuxtLink :to="'/blog/' + post.slug">
-            <div
-              class="h-96 p-6 w-80 rounded-lg border-primary border-2 text-black"
-            >
+          <NuxtLink
+            :to="'/blog/' + post.slug"
+            class="h-112 lg:h-96 p-6 w-3/4 sm:w-11/12 rounded-lg border-primary border-2"
+          >
+            <div class="text-black flex flex-col justify-center">
               <h3 class="text-center text-xl mb-4">{{ post.title }}</h3>
               <img
                 :src="`/articles/${post.img}`"
                 :alt="post.alt"
                 class="h-52"
               />
-              <p class="text-sm pt-4">{{ post.description }}</p>
+              <p class="text-sm lg:text-base lg:text-center pt-4">{{ post.description }}</p>
             </div>
           </NuxtLink>
         </div>
@@ -78,10 +79,10 @@ export default {
         },
         breakpoints: {
           1200: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 10,
           },
-          720: {
+          700: {
             slidesPerView: 2,
             spaceBetween: 10,
           },

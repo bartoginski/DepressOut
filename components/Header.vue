@@ -17,7 +17,7 @@
             <NuxtLink class="link link--desktop a" to="/what"
               >Co i jak?</NuxtLink
             >
-            <NuxtLink class="link link--desktop a" to="/depression"
+            <NuxtLink class="link link--desktop a" to="/phones"
               >Telefony Pomocy
             </NuxtLink>
             <!-- <NuxtLink class="link link--desktop a" to="/depression">Rozeznanie</NuxtLink> -->

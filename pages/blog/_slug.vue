@@ -156,5 +156,18 @@ export default {
   strong {
     @apply font-black;
   }
+
+  center {
+    @apply py-6 text-3xl;
+  }
+
+  div#index {
+    @apply py-6;
+  }
+
+  h2 {
+    // https://css-tricks.com/fixed-headers-and-jump-links-the-solution-is-scroll-margin-top/
+    scroll-margin-top: 120px;
+  }
 }
 </style>
