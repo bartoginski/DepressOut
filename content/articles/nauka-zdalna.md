@@ -1,9 +1,9 @@
 ---
 title: Wpływ nauki zdalnej na zdrowie
-description: Mity krążące wokół depresji.
-img: myths.svg
+description: Szkoły powinny zostać jak najdłużej otwarte, a ich zamykanie ma odbyć się jedynie w ostateczności.
+img: remote.svg
 alt: Wpływ nauki zdalnej na zdrowie
-tag: Depresja
+tag: Nauczanie zdalne
 author: Justyna Rudzka
 ---
 
