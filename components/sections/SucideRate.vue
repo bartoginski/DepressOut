@@ -2,7 +2,7 @@
   <SectionWrapperColumns align="center">
     <template #title>
         <RectangleHeader class="text-6xl">
-            Samobójswa w Polsce<br/>
+            Samobójstwa w Polsce<br/>
             <template #subtitle>Rok 2016</template>
         </RectangleHeader>
     </template>
