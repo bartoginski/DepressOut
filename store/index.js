@@ -1,5 +1,6 @@
 export const state = () => ({
-  isCookiesDisplayed: true,
+  // todo turn on cookies later
+  isCookiesDisplayed: false,
 })
 
 export const mutations = {

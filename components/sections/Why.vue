@@ -13,7 +13,7 @@
       </p>
       <p>
         Te wyniki pokazały nam, jak ważnym i aktualnym problemem jest depresja i
-        że należy podjąć odpowiednie kroki, by pomós ludziom dotkniętym tą
+        że należy podjąć odpowiednie kroki, by pomóc ludziom dotkniętym tą
         chorobą.
       </p>
     </template>

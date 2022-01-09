@@ -4,9 +4,9 @@
     <WaveSection>
       <AboutDepression />
       <Symptoms />
-      <Counter />
+      <!-- <Counter /> -->
       <SucideRate />
-      <!-- <StatsSlider />  -->
+      <Stats />
     </WaveSection>
   </div>
 </template>
