@@ -65,6 +65,7 @@ export default {
     { path: '~/components/buttons', extensions: ['vue'] },
     { path: '~/components/global', extensions: ['vue'] },
     { path: '~/components/headers', extensions: ['vue'] },
+    { path: '~/components/moodIcons', extensions: ['vue'] },
   ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
