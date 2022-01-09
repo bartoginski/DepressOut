@@ -11,7 +11,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Blog o depresji dla każdego' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Blog o depresji dla każdego',
+      },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'msapplication-TileColor', content: '#da532c' },
       { name: 'theme-color', content: '#ffffff' },
@@ -70,6 +74,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://google-analytics.nuxtjs.org/setup/
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -84,6 +90,15 @@ export default {
           'focus-within-pseudo-class': false,
         },
       },
+    },
+  },
+
+  googleAnalytics: {
+    id: process.env.ANALYTICS_ID, // Use as fallback if no runtime config is provided
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.ANALYTICS_ID,
     },
   },
 
