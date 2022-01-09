@@ -1,10 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  googleAnalytics: {
-    id: 'G-MP8KHCPBFW'
-  },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'DepressOut',
@@ -104,7 +100,6 @@ export default {
       id: process.env.ANALYTICS_ID,
     },
   },
-
   content: {
     liveEdit: false,
   },
