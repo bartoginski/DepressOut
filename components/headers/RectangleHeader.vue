@@ -11,10 +11,10 @@
         data-aos-delay="300"
         data-aos="fade-left"
         data-aos-anchor-placement="top-center"
-        class="text-3xl sm:text-4xl lg:text-6xl p-4 sm:p-5 bg-white text-primary relative inline-block"
+        class="flex flex-col justify-center items-center text-3xl sm:text-4xl lg:text-6xl p-4 sm:p-5 bg-white text-primary relative"
       >
         <slot></slot>
-        <span class="text-xl sm:text-2xl lg:text-3xl text-center block mt-4"><slot name="subtitle"></slot></span>
+        <span class="text-xl sm:text-2xl lg:text-3xl text-center block"><slot name="subtitle"></slot></span>
       </h2>
     </div>
   </div>
