@@ -15,7 +15,7 @@
               /></Nuxt-link>
               <a
                 class="hover:opacity-90 transition-opacity text-lg"
-                :href="'mailto' + email"
+                :href="'mailto:' + email"
                 >{{ email }}</a
               >
             </div>
