@@ -92,14 +92,8 @@ export default {
     },
   },
 
-  googleAnalytics: {
-    id: process.env.ANALYTICS_ID, // Use as fallback if no runtime config is provided
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.ANALYTICS_ID,
-    },
-  },
+  googleAnalytics: { id: 'G-MP8KHCPBFW' },
+
   content: {
     liveEdit: false,
   },
