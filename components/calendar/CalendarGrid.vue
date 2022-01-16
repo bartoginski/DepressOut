@@ -61,7 +61,34 @@
       <div class="grid grid-cols-7">
         <div v-for="day in getLastDay(actualYear, actualMonth)" :key="day">
           <!-- TODO: Add here DayCard -->
-          {{ day }}
+          <div class="bg-white w-28 h-24 rounded-lg m-4">
+            <div class="absolute pt-2 pl-20">
+              <button>
+                <img src="~/assets/img/i.svg" />
+              </button>
+            </div>
+            <div class="text-black font-black font-mono pt-2 pl-12">
+              {{ day }}
+            </div>
+            <button>
+              <div
+                class="
+                  flex
+                  bg-primary
+                  w-10
+                  h-10
+                  rounded-lg
+                  mt-4
+                  ml-16
+                  justify-center
+                  items-center
+                  text-2xl
+                "
+              >
+                +
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>
