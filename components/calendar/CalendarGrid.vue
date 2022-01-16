@@ -70,24 +70,23 @@
             <div class="text-black font-black font-mono pt-2 pl-12">
               {{ day }}
             </div>
-            <button>
-              <div
-                class="
-                  flex
-                  bg-primary
-                  w-10
-                  h-10
-                  rounded-lg
-                  mt-4
-                  ml-16
-                  justify-center
-                  items-center
-                  text-2xl
-                "
-              >
-                +
-              </div>
-            </button>
+
+            <div
+              class="
+                flex
+                bg-primary
+                w-10
+                h-10
+                rounded-lg
+                mt-4
+                ml-16
+                justify-center
+                items-center
+                text-2xl
+              "
+            >
+              <button>+</button>
+            </div>
           </div>
         </div>
       </div>
