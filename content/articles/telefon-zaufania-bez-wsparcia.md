@@ -4,7 +4,7 @@ description: telefony zaufania często są ostatnią formą ratunku dla osób do
 img: phones.svg
 alt: Telefon zaufania traci dofinansowanie.
 tag: Pomoc
-author: Mati Jaromir
+author: Mateusz Jaromin
 ---
 # Telefon zaufania traci dofinansowanie.
 
