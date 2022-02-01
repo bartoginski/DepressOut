@@ -6,7 +6,7 @@
       <img
         src="~/assets/img/CTA_male.svg"
         alt=""
-        class="absolute z-0 -left-1 -top-2"
+        class="absolute z-0 -left-1/4 -top-1/4 sm:-left-4 sm:-top-6"
       />
       <img
         src="~/assets/img/CTA_duze.svg"
