@@ -3,7 +3,7 @@ title: Wpływ nauki zdalnej na zdrowie
 description: Szkoły powinny zostać jak najdłużej otwarte, a ich zamykanie ma odbyć się jedynie w ostateczności.
 img: remote.svg
 alt: Wpływ nauki zdalnej na zdrowie
-tag: Nauczanie zdalne
+tag: Szkoła
 author: Justyna Rudzka
 ---
 
