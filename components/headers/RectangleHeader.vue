@@ -4,7 +4,6 @@
       <span
         data-aos-delay="300"
         data-aos="fade-right"
-        data-aos-anchor-placement="top-center"
         class="w-full h-full absolute -top-4 -left-4 sm:-top-5 sm:-left-5 border-4 border-white"
       ></span>
       <h2

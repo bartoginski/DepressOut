@@ -65,6 +65,8 @@ export default {
     { path: '~/components/buttons', extensions: ['vue'] },
     { path: '~/components/global', extensions: ['vue'] },
     { path: '~/components/headers', extensions: ['vue'] },
+    { path: '~/components/moodIcons', extensions: ['vue'] },
+    { path: '~/components/calendar', extensions: ['vue'] },
   ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
@@ -95,6 +97,7 @@ export default {
   googleAnalytics: {
     id: process.env.ANALYTICS_ID, // Use as fallback if no runtime config is provided
   },
+  
   publicRuntimeConfig: {
     googleAnalytics: {
       id: process.env.ANALYTICS_ID,

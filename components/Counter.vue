@@ -49,9 +49,21 @@
 </template>
 
 <script>
+
+// numerki
 const liczba1 = 25
 const liczba2 = 10
 const liczba3 = 1.5
+
+
+// nvm
+const time1 = 2 / liczba1 * 1000
+const time2 = 2 / liczba2 * 1000
+const time3 = 2 / liczba3 / 10 * 1000
+
+
+// czas po jakim numerki sie odświeżą
+const czas = 10000
 
 export default {
   data() {
@@ -68,8 +80,13 @@ export default {
         if (value < liczba1) {
           setTimeout(() => {
             this.licznik1++
-          }, 100)
+          }, time1)
         }
+        setTimeout(() => {
+          if (value === liczba1) {
+            this.licznik1 = 0
+          }
+        }, czas)
       },
       immediate: true,
     },
@@ -79,8 +96,13 @@ export default {
         if (value < liczba2) {
           setTimeout(() => {
             this.licznik2++
-          }, 100)
+          }, time2)
         }
+        setTimeout(() => {
+          if (value === liczba2) {
+            this.licznik2 = 0
+          }
+        }, czas)
       },
       immediate: true,
     },
@@ -90,9 +112,14 @@ export default {
         if (value < liczba3) {
           setTimeout(() => {
             // this.licznik3 += 0.1
-            this.licznik3 = Math.round((this.licznik3 + 0.1)*100)/100
-          }, 100)
+            this.licznik3 = Math.round((this.licznik3 + 0.1) * 100) / 100
+          }, time3)
         }
+        setTimeout(() => {
+          if (value === liczba3) {
+            this.licznik3 = 0
+          }
+        }, czas)
       },
       immediate: true,
     },
