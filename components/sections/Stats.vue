@@ -82,7 +82,7 @@
           >
             <p class="p-8 text-2xl hidden md:block">
               Ankietowanych podzieliliśmy na 3 grupy wiekowe: mniej niż 15 lat,
-              od 15 do 20 lat, oraz powyżej 20 lat. Przytłaczająca większość
+              od 15 do 20 lat, oraz powyżej 20 lat. Prztyłaczająca większość
               respondentów jest w wieku od 15 do 20 lat.
             </p>
           </div>

@@ -9,7 +9,7 @@
       </h2>
       <p class="text-black">Śledź nasze social-media!</p>
       <div
-        class="grid grid-cols-2 gap-10 mt-10 md:mt-4 justify-items-center md:justify-items-start"
+        class="flex gap-10 mt-10 md:mt-4 justify-center md:justify-start"
       >
         <div>
           <a href="https://www.facebook.com/DepressOut-102231069004407"

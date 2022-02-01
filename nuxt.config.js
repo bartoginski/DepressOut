@@ -103,6 +103,7 @@ export default {
       id: process.env.ANALYTICS_ID,
     },
   },
+
   content: {
     liveEdit: false,
   },
