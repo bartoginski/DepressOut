@@ -71,9 +71,9 @@
               <NuxtLink to="/blog">Blog</NuxtLink>
             </li>
             <li class="menu__link">
-              <NuxtLink to="/blog">Co i jak?</NuxtLink>
+              <NuxtLink to="/what">Co i jak?</NuxtLink>
             </li>
-            
+
           </ul>
         </div>
       </div>
@@ -107,10 +107,10 @@ footer {
       @apply cursor-pointer hover:opacity-80 transition-opacity;
     }
   }
-  .menu { 
+  .menu {
     &:first-child {
-      @apply md:font-black; 
-    } 
+      @apply md:font-black;
+    }
 
     &__link {
       @apply text-xl sm:text-2xl cursor-pointer hover:opacity-80 transition-opacity mb-4 font-extralight;

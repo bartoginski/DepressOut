@@ -1,7 +1,7 @@
 <template>
-  <SectionWrapperColumns>
+  <SectionWrapperColumns :reverse="true">
     <template #col-left>
-      <img class="hidden md:block" src="~/assets/img/sections/help.svg" alt="" />
+      <img class="" src="~/assets/img/sections/help.svg" alt="" />
     </template>
     <template #col-right>
       <h2 class="text-white text-4xl md:text-6xl">Jesteśmy tu, żeby pomóc</h2>
