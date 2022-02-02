@@ -1,6 +1,4 @@
 <template>
-  <!-- temporary added mb -->
-  <!-- TODO: Delete it after adding new section -->
   <main class="overflow-hidden">
     <PageHeader> Blog </PageHeader>
     <WaveSection class="">

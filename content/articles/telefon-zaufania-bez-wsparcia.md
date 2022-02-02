@@ -1,6 +1,6 @@
 ---
 title: Telefon zaufania traci dofinansowanie.
-description: telefony zaufania często są ostatnią formą ratunku dla osób dotkniętych depresją
+description: Telefony zaufania często są ostatnią formą ratunku dla osób dotkniętych depresją
 img: phones.svg
 alt: Telefon zaufania traci dofinansowanie.
 tag: Pomoc
