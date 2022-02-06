@@ -3,7 +3,7 @@
     <div class="container">
       <slot name="title"></slot>
       <div
-        :class="`text-xl xl:text-2xl grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-${gap} text-center md:text-left`"
+        :class="`text-xl xl:text-2xl grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-${gap} text-left md:text-left`"
       >
         <div
           :class="`flex flex-col md:items-${align} md:justify-center gap-0 md:gap-4`"
