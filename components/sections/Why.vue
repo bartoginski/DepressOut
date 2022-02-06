@@ -1,7 +1,7 @@
 <template>
   <SectionWrapperColumns>
     <template #title>
-      <SimpleHeader>Dlaczego stworzyliśmy ten projekt? </SimpleHeader>
+      <RectangleHeader>Skąd pomysł?</RectangleHeader>
     </template>
     <template #col-left>
       <p>
