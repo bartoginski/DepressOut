@@ -26,7 +26,7 @@
           <div class="mb-16 flex justify-between">
             <label class="pl-4 font-bold" for="">
               <input type="checkbox" class="mb-0" />
-              Zapamiętaj mnie
+              Zapamiętaj mnie 
             </label>
             <Nuxt-link to="/reset-password" class="text-primary"
               >Nie pamiętasz hasła?</Nuxt-link
