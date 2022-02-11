@@ -2,6 +2,7 @@
   <div>
     <PageHeader>Kalendarz</PageHeader>
     <CalendarGrid />
+    <HowFeeling />
   </div>
 </template>
 

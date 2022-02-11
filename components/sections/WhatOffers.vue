@@ -1,7 +1,7 @@
 <template>
   <SectionWrapperColumns>
     <template #title>
-      <SimpleHeader>Co oferuje DepressOut</SimpleHeader>
+      <RectangleHeader>Co oferujemy?</RectangleHeader>
     </template>
     <template #col-left>
       <img

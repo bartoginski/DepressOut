@@ -6,7 +6,7 @@
       <img
         src="~/assets/img/CTA_male.svg"
         alt=""
-        class="absolute z-0 -left-1 -top-2"
+        class="absolute z-0 -left-1/4 -top-1/4 sm:-left-4 sm:-top-6"
       />
       <img
         src="~/assets/img/CTA_duze.svg"
@@ -14,7 +14,7 @@
         class="absolute z-0 -right-2 -bottom-10"
       />
       <div class="flex flex-col gap-10 z-10 text-center md:text-left">
-        <h2 class="text-4xl font-bold">Jesteśmy tu, żeby pomóc</h2>
+        <h2 class="text-4xl font-bold text-center md:text-left">Jesteśmy tu, żeby pomóc</h2>
         <div class="text-xl justify-left">
           <p>Potrzebujesz pomocy, a nie wiesz gdzie jej szukać?</p>
           <p>Sprawdź nasze telefony zaufania</p>
