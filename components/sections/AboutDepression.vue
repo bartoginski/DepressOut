@@ -1,15 +1,17 @@
 <template>
   <SectionWrapper>
     <template #title>
-      <RectangleHeader>Czym jest depresja</RectangleHeader>
+      <RectangleHeader>Czym jest depresja?</RectangleHeader>
     </template>
     <template #content>
-      <p>
+      <p class="flex flex-col justify-center items-center">
         Według Światowej Organizacji Zdrowia (WHO) depresja jest wiodącą
         przyczyną niesprawności i niezdolności do pracy na świecie oraz
         najczęściej spotykanym zaburzeniem psychicznym. Choruje na nią w ciągu
         całego życia kilkanaście procent populacji osób dorosłych. Choroba ta
-        dotyka dwa razy częściej kobiet. Co dziesiąty pacjent zgłaszający się do
+        dotyka dwa razy częściej kobiet.
+        <img class="md:hidden my-6 w-1/2" src="~/assets/img/sections/depress1.svg">
+        Co dziesiąty pacjent zgłaszający się do
         lekarza pierwszego kontaktu z powodu innych dolegliwości ma
         pełnoobjawową depresję, a drugie tyle osób cierpi z powodu pojedynczych
         objawów depresyjnych. Niestety ponad połowa tych przypadków pozostaje
