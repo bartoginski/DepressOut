@@ -10,7 +10,6 @@
               Myślisz, że depresja nie jest problemem? Też nie zdawaliśmy sobie sprawy z powagi sytuacji, dopóki nie przeprowadziliśmy ankiety wśród naszych rówieśników. Na sto zapytanych osób 74 wypowiedziało się że zna kogoś ze stadium depresji.
               </p>
         </template>
-
         <template #col-right>
               <img src="~/assets/img/charts/stats_chart1.svg" alt="" />
         </template>
@@ -33,7 +32,7 @@
               </p>
         </template>
         <template #col-right>
-          <img class="w-4/5 md:w-2/5" src="~/assets/img/charts/stats_chart3.svg" alt="" />
+          <img class="w-3/5 md:w-2/5" src="~/assets/img/charts/stats_chart3.svg" alt="" />
         </template>
       </SectionWrapperColumns>
     </template>

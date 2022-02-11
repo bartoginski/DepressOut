@@ -18,7 +18,7 @@
         bazy numerów do specjalistów i numerów pomocy, śledzić bloga o tematyce
         depresji, czy nawet tworzyć własny kalendarz nastroju i listy rzeczy do
         zrobienia w swoim profilu.
-        <img class="md:hidden my-6 w-1/2" src="~/assets/img/sections/what_and_how2.svg">
+        <img class="md:hidden my-6 w-1/2" src="~/assets/img/sections/what_and_how2.svg" alt="">
         Wszystkie te elementy zostały stworzone w oparciu o dostępne informacje
         na temat depresji i pomoc specjalistów w tej dziedzinie, dzięki czemu
         mamy pewność, że działamy w dobrym kierunku.

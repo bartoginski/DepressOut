@@ -4,7 +4,7 @@
       <img class="hidden md:block" src="~/assets/img/sections/social.svg" alt="" />
     </template>
     <template #col-right>
-      <RectangleHeader greenBG="true">
+      <RectangleHeader :green="true">
         Kliknij po więcej!
       </RectangleHeader>
       <p class="text-black text-center">Śledź nasze social-media!</p>
