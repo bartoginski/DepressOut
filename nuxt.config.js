@@ -72,7 +72,6 @@ export default {
     { path: '~/components/headers', extensions: ['vue'] },
     { path: '~/components/moodIcons', extensions: ['vue'] },
     { path: '~/components/quiz', extensions: ['vue'] },
-    { path: '~/components/calendar', extensions: ['vue'] },
   ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
