@@ -1,24 +1,28 @@
 <template>
   <main>
-      <SingleQuestion v-for="question in questions" :key="question.question" :question="question" />
+    <SingleQuestion :question="questions[currentQuestion]" :question-id="currentQuestion"/>
   </main>
 </template>
 
 <script>
 import QuizBrain from '~/models/QuizBrain.js'
-  export default {
-    data() {
-        return {
-            quiz: new QuizBrain(),
-            questions: [],
-        };
+export default {
+  data() {
+    return {
+      quiz: new QuizBrain(),
+      questions: [],
+    }
+  },
+  computed: {
+    currentQuestion() {
+        return this.$store.state.quiz.currentQuestion
     },
-    mounted() {
-        this.questions = this.quiz.questions;
-    },
+
+  },
+  mounted() {
+    this.questions = this.quiz.questions
+  },
 }
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
