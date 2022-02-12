@@ -10,7 +10,7 @@
         lat. Co więcej, 66,1% osób biorących udział w ankiecie odczuwa depresję
         lub podejrzewa ją u siebie. Ankieta została przeprowadzona wśród ponad
         100 osób.
-        <img class="md:hidden my-6 w-1/2" src="~/assets/img/sections/what_and_how1.svg">
+        <img class="md:hidden my-6 w-1/2" src="~/assets/img/sections/what_and_how1.svg" alt="">
         Te wyniki pokazały nam, jak ważnym i aktualnym problemem jest depresja i
         że należy podjąć odpowiednie kroki, by pomóc ludziom dotkniętym tą
         chorobą.
