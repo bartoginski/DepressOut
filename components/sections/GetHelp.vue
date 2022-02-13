@@ -1,7 +1,7 @@
 <template>
   <SectionWrapperColumns class="text-primary">
     <template #title>
-      <RectangleHeader greenBG="true">Daj sobie pomóc</RectangleHeader>
+      <RectangleHeader :green="true">Daj sobie pomóc</RectangleHeader>
     </template>
     <template #col-left>
       <p>
