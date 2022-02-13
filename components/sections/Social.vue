@@ -4,10 +4,10 @@
       <img class="hidden md:block" src="~/assets/img/sections/social.svg" alt="" />
     </template>
     <template #col-right>
-      <h2 class="text-black text-4xl md:text-6xl">
-        Chcesz dowiedzieć się więcej?
-      </h2>
-      <p class="text-black">Śledź nasze social-media!</p>
+      <RectangleHeader :green="true">
+        Kliknij po więcej!
+      </RectangleHeader>
+      <p class="text-black text-center">Śledź nasze social-media!</p>
       <div
         class="flex gap-10 mt-10 md:mt-4 justify-center md:justify-start"
       >
