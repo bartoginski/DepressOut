@@ -37,7 +37,7 @@ ul {
         &:before {
             content: '';
             top: 5px;
-            @apply absolute h-4 w-4 md:h-5 md:w-5 bg-white rounded-full -left-8;
+            @apply absolute h-2 w-2 md:h-3 md:w-3 bg-white rounded-full -left-4 top-2 md:top-2 md:-left-6;
         }
     }
 }
