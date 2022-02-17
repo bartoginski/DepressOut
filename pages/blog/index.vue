@@ -28,7 +28,7 @@
               type="text"
               class="mx-4 placeholder:text-light-gray text-black px-1"
               placeholder="Szukaj"
-              autofocus
+            l  autofocus
             />
           </div>
         </div>
