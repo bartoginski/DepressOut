@@ -1,7 +1,7 @@
 ---
 title: Zdrowie psychiczne młodzieży
 description: Szacuje się, że ok. 20% osób doświadczyło epizodu depresyjnego jeszcze przed 18 rokiem życia.
-img: phones.svg
+img: zdrowie_psychiczne.svg
 alt: Telefon zaufania traci dofinansowanie.
 tag: Młodzież
 author: Justyna Rudzka
