@@ -1,7 +1,7 @@
 export const state = () => ({
   points: 0,
   currentQuestion: 0,
-  numberOfQuestion: 0,
+  numberOfQuestions: 0,
 })
 
 export const mutations = {

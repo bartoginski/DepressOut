@@ -1,6 +1,11 @@
 <template>
   <main>
-    <SingleQuestion :question="questions[currentQuestion]" :question-id="currentQuestion"/>
+    <SingleQuestion
+      v-if="!isEnd"
+      :question="questions[currentQuestion]"
+      :question-id="currentQuestion"
+    />
+    <EndScreen v-if="isEnd" />
   </main>
 </template>
 
@@ -15,9 +20,11 @@ export default {
   },
   computed: {
     currentQuestion() {
-        return this.$store.state.quiz.currentQuestion
+      return this.$store.state.quiz.currentQuestion
     },
-
+    isEnd() {
+      return this.$store.state.quiz.currentQuestion === this.questions.length
+    },
   },
   mounted() {
     this.questions = this.quiz.questions
