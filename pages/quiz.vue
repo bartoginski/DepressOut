@@ -1,7 +1,10 @@
 <template>
-  <WaveSection>
-    <QuizWrapper />
-  </WaveSection>
+  <main>
+    <PageHeader>Quiz</PageHeader>
+    <WaveSection>
+      <QuizWrapper />
+    </WaveSection>
+  </main>
 </template>
 
 <script>
