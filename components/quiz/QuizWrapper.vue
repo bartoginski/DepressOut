@@ -1,10 +1,16 @@
 <template>
   <div
-    class="flex w-full justify-center items-center antialiased text-gray-700"
+    class="flex w-full flex-col justify-center items-center antialiased text-gray-700"
   >
+    <p
+      class="text-white text-xl md:text-2xl mb-4 w-11/12 md:w-7/12 font-semibold"
+    >
+      Sprawdź jak dobrze jest ci znany temat depresji, biorąc udział w
+      przygotowanym przez nas Quizie!
+    </p>
     <div class="flex w-11/12 md:w-7/12 justify-center items-center">
       <div class="w-full max-x-xl">
-        <div class="bg-white p-12 rounded-lg shadow-lg w-full">
+        <div class="bg-white px-8 py-12 sm:p-12 rounded-lg shadow-lg w-full">
           <div v-if="index < count">
             <p class="text-2xl font-bold">
               {{ questions[index]['question'] }}
