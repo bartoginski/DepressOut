@@ -60,7 +60,10 @@
         <ul v-show="mobileNav" class="dropdown-nav">
           <li>
             <Nuxt-link to="/"
-              ><img src="~/assets/img/logo_white.svg" alt="logo" class="logo__mobile"
+              ><img
+                src="~/assets/img/logo_white.svg"
+                alt="logo"
+                class="logo__mobile"
             /></Nuxt-link>
           </li>
           <li>
@@ -72,6 +75,9 @@
             <NuxtLink class="link link--mobile" to="/blog">Blog</NuxtLink>
           </li>
           <li>
+            <NuxtLink class="link link--mobile" to="/quiz">Quiz</NuxtLink>
+          </li>
+          <li>
             <NuxtLink class="link link--mobile" to="/what">Co i jak</NuxtLink>
           </li>
           <li>
@@ -79,6 +85,7 @@
               >Telefony Pomocy</NuxtLink
             >
           </li>
+
           <!-- <li>
             <NuxtLink class="link link--mobile" to="/login">Zaloguj</NuxtLink>
           </li> -->
