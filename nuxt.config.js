@@ -15,6 +15,11 @@ export default {
         name: 'description',
         content: 'Blog o depresji dla każdego',
       },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'pomoc, depresja, wsparcie, problem, choroba, kryzys, emocje, depressout, pandemia, covid, lockdown, kwarantanna, psychika, psychologia, telefony pomocy, blog, nastrój, radość, zwolnienizteorii, problem emocjonalny, kłopoty, zaburzenia',
+      },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'msapplication-TileColor', content: '#da532c' },
       { name: 'theme-color', content: '#ffffff' },
@@ -65,6 +70,7 @@ export default {
     { path: '~/components/buttons', extensions: ['vue'] },
     { path: '~/components/global', extensions: ['vue'] },
     { path: '~/components/headers', extensions: ['vue'] },
+    { path: '~/components/quiz', extensions: ['vue'] },
   ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules

@@ -33,6 +33,13 @@
           <NuxtLink class="link link--desktop a" to="/depression">Dołącz do nas!</NuxtLink>
         </div> -->
         </div>
+        <div class="right-menu">
+          <li>
+            <NuxtLink class="link link--desktop menu-button" to="/quiz"
+              >Quiz</NuxtLink
+            >
+          </li>
+        </div>
         <!-- temporary disabled /zaloguj -->
         <!-- <li>
           <NuxtLink class="link link--desktop" to="/login">Zaloguj</NuxtLink>

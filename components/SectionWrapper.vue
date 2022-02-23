@@ -5,7 +5,7 @@
       <div
         data-aos-delay="400"
         data-aos="fade-in"
-        :class="`text-xl xl:text-2xl flex flex-col gap-${gap}`"
+        :class="`text-xl xl:text-2xl flex flex-col justify-center items-center gap-${gap}`"
       >
         <slot name="content"></slot>
       </div>
