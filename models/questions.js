@@ -62,7 +62,7 @@ export default [
   },
   {
     question:
-      'Jaki procent nastolatków boryka się z depresją przed ukończeniem 18 roku życia?',
+      '7. Jaki procent nastolatków boryka się z depresją przed ukończeniem 18 roku życia?',
     answers: {
       a: '40%',
       b: '60%',
