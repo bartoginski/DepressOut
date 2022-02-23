@@ -4,6 +4,7 @@
     <WaveSection>
       <QuizWrapper />
     </WaveSection>
+    <QuizCTA />
   </main>
 </template>
 
