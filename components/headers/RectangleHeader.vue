@@ -21,7 +21,7 @@
 export default {
   props: {
     'mb': {
-      type: String, 
+      type: String,
       default: 'mb-12 sm:mb-16 md:mb-20'
     },
     green: {
