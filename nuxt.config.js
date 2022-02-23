@@ -70,7 +70,6 @@ export default {
     { path: '~/components/buttons', extensions: ['vue'] },
     { path: '~/components/global', extensions: ['vue'] },
     { path: '~/components/headers', extensions: ['vue'] },
-    { path: '~/components/moodIcons', extensions: ['vue'] },
     { path: '~/components/quiz', extensions: ['vue'] },
   ],
 

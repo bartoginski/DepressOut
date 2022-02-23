@@ -4,7 +4,7 @@
       <img class="" src="~/assets/img/sections/help.svg" alt="" />
     </template>
     <template #col-right>
-      <RectangleHeader>Jesteśmy by pomagać</RectangleHeader>
+      <RectangleHeader>Nasz projekt</RectangleHeader>
       <p class="text-white">
         Tworzymy projekt mający na celu pomóc ludziom dotkniętym depresją.
         Dlatego stworzyliśmy ankietę by lepiej zrozumieć problem. Dziękujemy za

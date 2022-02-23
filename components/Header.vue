@@ -1,12 +1,12 @@
 <template>
   <header>
     <nav>
-      <div class="branding">
+      <div class="ml-5 md:ml-20 branding">
         <Nuxt-link to="/">
           <img src="~/assets/img/logo.svg" alt="logo" />
         </Nuxt-link>
       </div>
-      <ul v-show="!mobile" class="navigation">
+      <ul v-show="!mobile" class="md:mr-20 navigation">
         <div class="right-menu">
           <li>
             <NuxtLink class="link link--desktop menu-button" to="/depression"
@@ -45,7 +45,7 @@
           <NuxtLink class="link link--desktop" to="/login">Zaloguj</NuxtLink>
         </li> -->
       </ul>
-      <div class="icon">
+      <div class="icon mr-5">
         <i
           v-show="mobile"
           v-on-clickaway="awayMobileNav"
@@ -124,6 +124,9 @@ export default {
 </script>
 <style lang="scss" scoped>
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 3px solid #28dcc3;
   background-color: white;
   z-index: 99;
@@ -138,13 +141,12 @@ header {
 
   nav {
     position: relative;
+    right: 0px;
     display: flex;
     flex-direction: row;
     transition: 0.3s ease all;
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
     @media (min-width: 768px) {
-      max-width: 768px;
       height: 100%;
     }
     @media (max-width: 768px) {
