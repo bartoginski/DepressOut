@@ -1,7 +1,7 @@
 <template>
   <main>
     <PageHeader> Telefon Pomocy </PageHeader>
-    <SectionWrapper>
+    <SectionWrapper align="start">
       <template #content>
         <p class="font-bold">
           <span class="font-black"

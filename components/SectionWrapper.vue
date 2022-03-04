@@ -5,7 +5,7 @@
       <div
         data-aos-delay="400"
         data-aos="fade-in"
-        :class="`text-xl xl:text-2xl flex flex-col justify-center items-center gap-${gap}`"
+        :class="`text-xl xl:text-2xl flex flex-col justify-center items-${align} gap-${gap}`"
       >
         <slot name="content"></slot>
       </div>
@@ -19,6 +19,10 @@ export default {
     gap: {
       type: String,
       default: '5',
+    },
+    align: {
+      type: String,
+      default: 'center',
     },
   },
 }
