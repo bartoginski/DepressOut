@@ -1,14 +1,13 @@
 ---
 title: Dziecko w depresji co robić?
-description: Rodzicom często ciężko jest się pogodzić z depresją swojego dziecka, jednak w tym czasie potrzebuje ono najwięcej wsparcia.
+description: Bliscy postawieni przed nową sytuacją często nie wiedzą jak poprawnie pomóc swojemu dziecku przejść przez ten ciężki okres. 
 img: dziecko_w_depresji.svg
 alt: Dziecko w depresji co robić?
 tag: Depresja
 author: Justyna Rudzka
 ---
 
-
-# Dziecko w depresji co robić?
+# Dziecko w depresji, co robić?
 Rodzicom często ciężko jest się pogodzić z depresją swojego dziecka, jednak w tym czasie potrzebuje ono najwięcej wsparcia. Bliscy postawieni przed nową sytuacją często nie wiedzą jak poprawnie pomóc swojemu dziecku przejść przez ten ciężki okres. Najlepszym krokiem jest zdobywanie rzetelnej wiedzy na temat choroby, aby lepiej zrozumieć to co przeżywa druga osoba.  
 
 <br>
@@ -28,18 +27,16 @@ Rodzicom często ciężko jest się pogodzić z depresją swojego dziecka, jedna
 - Zamykanie się w pokoju,<br>
 - Poczucie bezradności, zobojętnienie,<br>
 - Obniżony nastrój,<br>
-
-
 <br>
 
 ## 2. Jak pomóc swojemu dziecku?
-<br>
-1.Uważnie słuchaj - przy rozmowie wykazuj zainteresowanie oraz zadawaj pytania, na które będzie trzeba powiedzieć coś więcej niż ,,Tak” albo ,,Nie”. Interesuj się tym jak minął mu/jej dzień oraz jak się czuje. <br><br>
-2.Szanuj zdanie dziecka - nawet jeśli nie zgadzacie się w pewnych kwestiach zaakceptuj to, że ma inne poglądy. <br><br>
-3.Bądź obecny w życiu swojego dziecka - możesz tego dokonać poprzez rozmowę i  wspólne aktywności jak granie w gry planszowe, pójście na spacer na zakupy.<br><br>
-4.Zachęcaj do udania się do specjalisty - ważne, aby zadbać o dobrą opiekę .<br><br>
-5.Zaakceptuj chorobę - pogódź się z tym, że twoje dziecko jest chore i w tym momencie potrzebuje twojej obecności.<br> <br>
-6.Staraj się zachęcać osobę chorą do nie rezygnowania z czynności, które sprawiają jej przyjemność. <br><br>
+
+1. Uważnie słuchaj - przy rozmowie wykazuj zainteresowanie oraz zadawaj pytania, na które będzie trzeba powiedzieć coś więcej niż ,,Tak” albo ,,Nie”. Interesuj się tym jak minął mu/jej dzień oraz jak się czuje. <br>
+2. Szanuj zdanie dziecka - nawet jeśli nie zgadzacie się w pewnych kwestiach zaakceptuj to, że ma inne poglądy. <br
+3. Bądź obecny w życiu swojego dziecka - możesz tego dokonać poprzez rozmowę i  wspólne aktywności jak granie w gry planszowe, pójście na spacer na zakupy.<br>
+4. Zachęcaj do udania się do specjalisty - ważne, aby zadbać o dobrą opiekę .<br>
+5. Zaakceptuj chorobę - pogódź się z tym, że twoje dziecko jest chore i w tym momencie potrzebuje twojej obecności.<br>
+6. Staraj się zachęcać osobę chorą do nie rezygnowania z czynności, które sprawiają jej przyjemność. <br>
 
 
 ## 3. Negatywne zachowania rodziców
@@ -50,4 +47,3 @@ Częstą przyczyną problemów dzieci są rodzice. Rozwody, ciągłe kłótnie, 
 <a href="https://www.pogotowiepsychologiczne.com.pl/rodzicu-reaguj-to-moze-byc-depresja-wskazowki-dla-rodzicow/" target="_blank" rel="noopener noreferrer">www.pogotowiepsychologiczne.com.pl</a>
 
 
-Bliscy postawieni przed nową sytuacją często nie wiedzą jak poprawnie pomóc swojemu dziecku przejść przez ten ciężki okres. 
