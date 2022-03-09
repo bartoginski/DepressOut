@@ -37,12 +37,12 @@ Rodzicom często ciężko jest się pogodzić z depresją swojego dziecka, jedna
 4. Zachęcaj do udania się do specjalisty - ważne, aby zadbać o dobrą opiekę .<br>
 5. Zaakceptuj chorobę - pogódź się z tym, że twoje dziecko jest chore i w tym momencie potrzebuje twojej obecności.<br>
 6. Staraj się zachęcać osobę chorą do nie rezygnowania z czynności, które sprawiają jej przyjemność. <br>
-
+<br>
 
 ## 3. Negatywne zachowania rodziców
 
 Częstą przyczyną problemów dzieci są rodzice. Rozwody, ciągłe kłótnie, alkoholizm sprawiają, że młodzież odczuwa ciągły stres, napięcie oraz samotność. Rodzice często zaniedbują potrzeby swojego dziecka, nie rozmawią z nim, nie okazują miłości ani wsparcia myśląc, że zapewnienie mu dachu nad głową jest wystarczające. Takie postawy wpędzają dzieci w depresję, gdyż czują, że z problemami muszą poradzić sobie sami. Taka osoba zmaga się z problemami także w szkole jednak nie mają jak porozmawiać z rodzicami, gdyż ci nie wykazują zainteresowania sprawami swojego dziecko. Osoby chore powinny czuć wsparcie bliskich i mieć do kogo się zwrócić z każdą dobrą oraz tą złą rzeczą nie będąc za to oceniani.  
-
+<br>
 
 <a href="https://www.pogotowiepsychologiczne.com.pl/rodzicu-reaguj-to-moze-byc-depresja-wskazowki-dla-rodzicow/" target="_blank" rel="noopener noreferrer">www.pogotowiepsychologiczne.com.pl</a>
 
