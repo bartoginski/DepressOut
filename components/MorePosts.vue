@@ -37,7 +37,7 @@
         class="button-next rounded-md bg-primary h-12 w-12 md:h-8 md:w-8 flex justify-center items-center cursor-pointer transition-all hover:bg-black"
       >
         <svg
-          class="fill-current text-white top-0 h-8 w-8 md:h-4 md:w-4 -rotate-180"
+          class="fill-current text-white top-0 h-8 w-8 md:h-4 md:w-4"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >

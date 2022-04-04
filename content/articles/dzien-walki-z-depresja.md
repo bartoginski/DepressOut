@@ -11,7 +11,7 @@ author: Justyna Rudzka
 
 Dnia 23 lutego obchodzimy Ogólnopolski Dzień Walki z Depresją ustanowiony przez Ministerstwo Zdrowia w 2001 r. Celem tego dnia jest rozprzestrzenienie informacji na temat depresji, czyli edukacja ludzi w zakresie zdrowia psychicznego oraz zachęcanie chorych do podjęcia leczenia.
 
-Właśnie dlatego stworzyliśmy dla was quiz ( może być tutaj wstawiony czy coś), dzięki któremu sprawdzicie samych siebie z wiedzy o depresji, ale najpierw kilka informacji.
+Właśnie dlatego stworzyliśmy dla Was <NuxtLink to="/quiz" class="text-primary">quiz</NuxtLink>, dzięki któremu sprawdzicie samych siebie z wiedzy o depresji, ale najpierw kilka informacji.
 
 W Polsce na chwilę obecna depresja została zdiagnozowana u ok. 1,5 mln osób, szacuje się jednak, że liczba osób, u których do tej pory zaburzenie nie zostało wykryte, a tym samym nie otrzymują odpowiedniego wsparcia wynosi ok. 8 mln.  
 

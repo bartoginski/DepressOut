@@ -14,19 +14,23 @@
         class="absolute z-0 -right-2 -bottom-10"
       />
       <div class="flex flex-col gap-10 z-10 text-center md:text-left">
-        <h2 class="text-4xl font-bold text-center md:text-left">Jesteśmy tu, żeby pomóc</h2>
+        <h2 class="text-4xl font-bold text-center md:text-left">Jak pomóc ukrainie?</h2>
         <div class="text-xl justify-left">
-          <p>Potrzebujesz pomocy, a nie wiesz gdzie jej szukać?</p>
-          <p>Sprawdź nasze telefony zaufania</p>
+          <p>
+            Chcesz wpłacić pieniądze na pomoc Ukrainie?
+          </p>
+          <p>
+            Sprawdź zweryfikowaną zbiórkę.
+          </p>
         </div>
       </div>
       <div class="flex justify-center items-center text-xl z-0">
-        <NuxtLink to="/phones">
+        <a href="https://pck.pl/na-pomoc-ukrainie/">
           <ButtonOutlineWhite
             class="border-white bg-transparent px-14 lg:mr-14 lg:w-72"
             >Sprawdź</ButtonOutlineWhite
           >
-        </NuxtLink>
+        </a>
       </div>
     </div>
   </div>
